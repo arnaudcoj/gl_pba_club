@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2sUHcGzuEeWpJqAjKjS-gA" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_DYOZYGzvEeWpJqAjKjS-gA" name="boite à idées">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_IcztkGzvEeWpJqAjKjS-gA" name="consulter les idées"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_IbGn8GzwEeWpJqAjKjS-gA" name="apprécier une idée">
+      <extend xmi:type="uml:Extend" xmi:id="_Wu5dsGzwEeWpJqAjKjS-gA" extendedCase="_Q7xogGzwEeWpJqAjKjS-gA" extensionLocation="_Wu6r0GzwEeWpJqAjKjS-gA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MXK04GzwEeWpJqAjKjS-gA" name="+1">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Pp-pcGzwEeWpJqAjKjS-gA" general="_IbGn8GzwEeWpJqAjKjS-gA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NZa8EGzwEeWpJqAjKjS-gA" name="-1">
+      <generalization xmi:type="uml:Generalization" xmi:id="_OnNk4GzwEeWpJqAjKjS-gA" general="_IbGn8GzwEeWpJqAjKjS-gA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Q7xogGzwEeWpJqAjKjS-gA" name="retirer appréciation">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Wu6r0GzwEeWpJqAjKjS-gA" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5Yu_gGzwEeWpJqAjKjS-gA" name="proposer une idée"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NfU6UGzxEeWpJqAjKjS-gA" name="s'idenfier">
+      <include xmi:type="uml:Include" xmi:id="_RimigGzxEeWpJqAjKjS-gA" addition="_5Yu_gGzwEeWpJqAjKjS-gA"/>
+      <include xmi:type="uml:Include" xmi:id="_S1KWkGzxEeWpJqAjKjS-gA" addition="_IbGn8GzwEeWpJqAjKjS-gA"/>
+      <include xmi:type="uml:Include" xmi:id="_1ZJIAGzxEeWpJqAjKjS-gA" addition="_mGBjQGzxEeWpJqAjKjS-gA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mGBjQGzxEeWpJqAjKjS-gA" name="gérer la liste des idées"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sIxv4GzxEeWpJqAjKjS-gA" name="valider un idée">
+      <generalization xmi:type="uml:Generalization" xmi:id="_2Iao0GzxEeWpJqAjKjS-gA" general="_mGBjQGzxEeWpJqAjKjS-gA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_uUXdsGzxEeWpJqAjKjS-gA" name="supprimer une idée">
+      <generalization xmi:type="uml:Generalization" xmi:id="_3xopYGzxEeWpJqAjKjS-gA" general="_mGBjQGzxEeWpJqAjKjS-gA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_N6PmoGzvEeWpJqAjKjS-gA" name="utilisateur (client, employé)"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-jcmUGzvEeWpJqAjKjS-gA" memberEnd="_-jdNYmzvEeWpJqAjKjS-gA _-jdNY2zvEeWpJqAjKjS-gA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-jdNYGzvEeWpJqAjKjS-gA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-jdNYWzvEeWpJqAjKjS-gA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-jdNYmzvEeWpJqAjKjS-gA" name="usecase1" type="_IcztkGzvEeWpJqAjKjS-gA" association="_-jcmUGzvEeWpJqAjKjS-gA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-jdNY2zvEeWpJqAjKjS-gA" name="utilisateur (client, employé)" type="_N6PmoGzvEeWpJqAjKjS-gA" association="_-jcmUGzvEeWpJqAjKjS-gA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ev0AIGzwEeWpJqAjKjS-gA" memberEnd="_ev1OQGzwEeWpJqAjKjS-gA _ev1OQWzwEeWpJqAjKjS-gA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ev0nMGzwEeWpJqAjKjS-gA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ev0nMWzwEeWpJqAjKjS-gA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ev1OQGzwEeWpJqAjKjS-gA" name="apprécier une idée" type="_IbGn8GzwEeWpJqAjKjS-gA" association="_ev0AIGzwEeWpJqAjKjS-gA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ev1OQWzwEeWpJqAjKjS-gA" name="utilisateur (client, employé)" type="_N6PmoGzvEeWpJqAjKjS-gA" association="_ev0AIGzwEeWpJqAjKjS-gA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Bv43sGzxEeWpJqAjKjS-gA" memberEnd="_Bv5ewmzxEeWpJqAjKjS-gA _Bv5ew2zxEeWpJqAjKjS-gA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bv5ewGzxEeWpJqAjKjS-gA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Bv5ewWzxEeWpJqAjKjS-gA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Bv5ewmzxEeWpJqAjKjS-gA" name="proposer une idée" type="_5Yu_gGzwEeWpJqAjKjS-gA" association="_Bv43sGzxEeWpJqAjKjS-gA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Bv5ew2zxEeWpJqAjKjS-gA" name="utilisateur (client, employé)" type="_N6PmoGzvEeWpJqAjKjS-gA" association="_Bv43sGzxEeWpJqAjKjS-gA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_b5NxAGzxEeWpJqAjKjS-gA" name="gestionnaire Boite à Idée"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5B1F8GzxEeWpJqAjKjS-gA" memberEnd="_5B2UEGzxEeWpJqAjKjS-gA _5B2UEWzxEeWpJqAjKjS-gA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5B1tAGzxEeWpJqAjKjS-gA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5B1tAWzxEeWpJqAjKjS-gA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5B2UEGzxEeWpJqAjKjS-gA" name="gestionnaire boite à idée" type="_b5NxAGzxEeWpJqAjKjS-gA" association="_5B1F8GzxEeWpJqAjKjS-gA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5B2UEWzxEeWpJqAjKjS-gA" name="gérer la liste des idées" type="_mGBjQGzxEeWpJqAjKjS-gA" association="_5B1F8GzxEeWpJqAjKjS-gA"/>
+  </packagedElement>
+</uml:Model>
