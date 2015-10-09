@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_t4kkIG5SEeWABqLtYtiX-Q" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_79eTMG5bEeWcWZTm_c81tw" name="Donateur"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9uPGMG5bEeWcWZTm_c81tw" name="Faire un don">
+    <include xmi:type="uml:Include" xmi:id="_lQcFIG5cEeWcWZTm_c81tw" addition="_IAv30G5cEeWcWZTm_c81tw"/>
+    <include xmi:type="uml:Include" xmi:id="_lxdHgG5cEeWcWZTm_c81tw" addition="_JCtEEG5cEeWcWZTm_c81tw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__mXsgG5bEeWcWZTm_c81tw" memberEnd="__mYTkG5bEeWcWZTm_c81tw __mYTkW5bEeWcWZTm_c81tw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__mXsgW5bEeWcWZTm_c81tw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__mXsgm5bEeWcWZTm_c81tw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__mYTkG5bEeWcWZTm_c81tw" name="faire un don" type="_9uPGMG5bEeWcWZTm_c81tw" association="__mXsgG5bEeWcWZTm_c81tw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__mYTkW5bEeWcWZTm_c81tw" name="donateur" type="_79eTMG5bEeWcWZTm_c81tw" association="__mXsgG5bEeWcWZTm_c81tw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_CMuqwG5cEeWcWZTm_c81tw" name="Afficher liste des donateurs"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EoN1wG5cEeWcWZTm_c81tw" name="Visiteur"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GT-M8G5cEeWcWZTm_c81tw" memberEnd="_GT-0Am5cEeWcWZTm_c81tw _GT-0A25cEeWcWZTm_c81tw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GT-0AG5cEeWcWZTm_c81tw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GT-0AW5cEeWcWZTm_c81tw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GT-0Am5cEeWcWZTm_c81tw" name="afficher liste des donateurs" type="_CMuqwG5cEeWcWZTm_c81tw" association="_GT-M8G5cEeWcWZTm_c81tw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GT-0A25cEeWcWZTm_c81tw" name="visiteur" type="_EoN1wG5cEeWcWZTm_c81tw" association="_GT-M8G5cEeWcWZTm_c81tw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GyQrcG5cEeWcWZTm_c81tw" memberEnd="_GyQrc25cEeWcWZTm_c81tw _GyRSgG5cEeWcWZTm_c81tw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GyQrcW5cEeWcWZTm_c81tw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GyQrcm5cEeWcWZTm_c81tw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GyQrc25cEeWcWZTm_c81tw" name="donateur" type="_79eTMG5bEeWcWZTm_c81tw" association="_GyQrcG5cEeWcWZTm_c81tw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GyRSgG5cEeWcWZTm_c81tw" name="afficher liste des donateurs" type="_CMuqwG5cEeWcWZTm_c81tw" association="_GyQrcG5cEeWcWZTm_c81tw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IAv30G5cEeWcWZTm_c81tw" name="Payer"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JCtEEG5cEeWcWZTm_c81tw" name="Renseigner ses informations"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_thTIEG5cEeWcWZTm_c81tw" name="Sponsoring"/>
+</uml:Model>

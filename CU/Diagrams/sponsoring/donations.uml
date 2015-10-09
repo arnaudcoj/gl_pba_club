@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_M54RUG5ZEeW-ptlEm4FF6A" name="RootElement">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OVHgQG5ZEeW-ptlEm4FF6A" name="Don particulier standard">
+    <generalization xmi:type="uml:Generalization" xmi:id="_OVHgQW5ZEeW-ptlEm4FF6A" general="_OVJVdm5ZEeW-ptlEm4FF6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OVIuYG5ZEeW-ptlEm4FF6A" name="Don entreprise" isAbstract="true">
+    <generalization xmi:type="uml:Generalization" xmi:id="_OVIuYW5ZEeW-ptlEm4FF6A" general="_OVJVcm5ZEeW-ptlEm4FF6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OVIuYm5ZEeW-ptlEm4FF6A" name="Don entreprise (inférieur au seuil)">
+    <generalization xmi:type="uml:Generalization" xmi:id="_OVIuY25ZEeW-ptlEm4FF6A" general="_OVIuYG5ZEeW-ptlEm4FF6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OVJVcG5ZEeW-ptlEm4FF6A" name="Don entreprise (supérieur au seuil)">
+    <generalization xmi:type="uml:Generalization" xmi:id="_OVJVcW5ZEeW-ptlEm4FF6A" general="_OVIuYG5ZEeW-ptlEm4FF6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OVJVcm5ZEeW-ptlEm4FF6A" name="Faire un Don" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_OVJVc25ZEeW-ptlEm4FF6A" name="Donations"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OVJVdG5ZEeW-ptlEm4FF6A" name="Don particulier anonyme">
+    <generalization xmi:type="uml:Generalization" xmi:id="_OVJVdW5ZEeW-ptlEm4FF6A" general="_OVJVdm5ZEeW-ptlEm4FF6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OVJVdm5ZEeW-ptlEm4FF6A" name="Don particulier" isAbstract="true">
+    <generalization xmi:type="uml:Generalization" xmi:id="_OVJVd25ZEeW-ptlEm4FF6A" general="_OVJVcm5ZEeW-ptlEm4FF6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_fniYYG5bEeWcWZTm_c81tw" name="Donateur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_g0TtgG5bEeWcWZTm_c81tw" name="Particulier">
+    <generalization xmi:type="uml:Generalization" xmi:id="_p3dwEG5bEeWcWZTm_c81tw" general="_fniYYG5bEeWcWZTm_c81tw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_i8fiAG5bEeWcWZTm_c81tw" name="Entreprise">
+    <generalization xmi:type="uml:Generalization" xmi:id="_pAUFoG5bEeWcWZTm_c81tw" general="_fniYYG5bEeWcWZTm_c81tw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_t0SyAG5bEeWcWZTm_c81tw" memberEnd="_t0jQsG5bEeWcWZTm_c81tw _t0ke0G5bEeWcWZTm_c81tw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t0WcYG5bEeWcWZTm_c81tw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t0WcYW5bEeWcWZTm_c81tw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t0jQsG5bEeWcWZTm_c81tw" name="don particulier" type="_OVJVdm5ZEeW-ptlEm4FF6A" association="_t0SyAG5bEeWcWZTm_c81tw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t0ke0G5bEeWcWZTm_c81tw" name="particulier" type="_g0TtgG5bEeWcWZTm_c81tw" association="_t0SyAG5bEeWcWZTm_c81tw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ugAogG5bEeWcWZTm_c81tw" memberEnd="_ugDEwG5bEeWcWZTm_c81tw _ugDEwW5bEeWcWZTm_c81tw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ugB2oG5bEeWcWZTm_c81tw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ugCdsG5bEeWcWZTm_c81tw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ugDEwG5bEeWcWZTm_c81tw" name="don entreprise" type="_OVIuYG5ZEeW-ptlEm4FF6A" association="_ugAogG5bEeWcWZTm_c81tw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ugDEwW5bEeWcWZTm_c81tw" name="entreprise" type="_i8fiAG5bEeWcWZTm_c81tw" association="_ugAogG5bEeWcWZTm_c81tw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_38NdMG5bEeWcWZTm_c81tw" memberEnd="_38NdM25bEeWcWZTm_c81tw _38OEQG5bEeWcWZTm_c81tw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_38NdMW5bEeWcWZTm_c81tw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_38NdMm5bEeWcWZTm_c81tw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_38NdM25bEeWcWZTm_c81tw" name="faire un don" type="_OVJVcm5ZEeW-ptlEm4FF6A" association="_38NdMG5bEeWcWZTm_c81tw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_38OEQG5bEeWcWZTm_c81tw" name="donateur" type="_fniYYG5bEeWcWZTm_c81tw" association="_38NdMG5bEeWcWZTm_c81tw"/>
+  </packagedElement>
+</uml:Model>
