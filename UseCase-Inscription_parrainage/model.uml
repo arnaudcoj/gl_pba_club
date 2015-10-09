@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_BoiVYG5YEeWBeeka4V8-Mw" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_FugFMG5YEeWBeeka4V8-Mw" name="Utilisateur"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_GFj6UG5YEeWBeeka4V8-Mw" name="Parain">
+    <generalization xmi:type="uml:Generalization" xmi:id="_ik99YG5cEeWWPs1r19HEkQ" general="_FugFMG5YEeWBeeka4V8-Mw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_GOP8QG5YEeWBeeka4V8-Mw" name="Filleul">
+    <generalization xmi:type="uml:Generalization" xmi:id="_gF-LYG5cEeWWPs1r19HEkQ" general="_FugFMG5YEeWBeeka4V8-Mw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_YvwvoG5YEeWBeeka4V8-Mw" name="Inscription/parrainage/connection">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1O0KMG5YEeWWPs1r19HEkQ" name="se connecter">
+      <extend xmi:type="uml:Extend" xmi:id="_OxcIgG5cEeWWPs1r19HEkQ" extendedCase="_hvimsG5bEeWWPs1r19HEkQ" extensionLocation="_OxcIgW5cEeWWPs1r19HEkQ"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_aJGZwG5bEeWWPs1r19HEkQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1sj2IG5YEeWWPs1r19HEkQ" name="se déconnecter">
+      <extend xmi:type="uml:Extend" xmi:id="_aJFysG5bEeWWPs1r19HEkQ" extendedCase="_1O0KMG5YEeWWPs1r19HEkQ" extensionLocation="_aJGZwG5bEeWWPs1r19HEkQ"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Oj87kW5bEeWWPs1r19HEkQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3apIkG5YEeWWPs1r19HEkQ" name="réinitialiser mot de passe">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cc0awG5ZEeWWPs1r19HEkQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FmnpoG5aEeWWPs1r19HEkQ" name="s'inscrire">
+      <extend xmi:type="uml:Extend" xmi:id="_F0xIcG5cEeWWPs1r19HEkQ" extendedCase="_hjzQwG5bEeWWPs1r19HEkQ" extensionLocation="_F0xIcW5cEeWWPs1r19HEkQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hjzQwG5bEeWWPs1r19HEkQ" name="choisir parain">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_F0xIcW5cEeWWPs1r19HEkQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hvimsG5bEeWWPs1r19HEkQ" name="proposer filleul">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_OxcIgW5cEeWWPs1r19HEkQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iom8sG5bEeWWPs1r19HEkQ" name="accompagner filleul"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_O10kIG5aEeWWPs1r19HEkQ" memberEnd="_O11LMm5aEeWWPs1r19HEkQ _O11LM25aEeWWPs1r19HEkQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O11LMG5aEeWWPs1r19HEkQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O11LMW5aEeWWPs1r19HEkQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_O11LMm5aEeWWPs1r19HEkQ" name="s'inscrire" type="_FmnpoG5aEeWWPs1r19HEkQ" association="_O10kIG5aEeWWPs1r19HEkQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_O11LM25aEeWWPs1r19HEkQ" name="utilisateur" type="_FugFMG5YEeWBeeka4V8-Mw" association="_O10kIG5aEeWWPs1r19HEkQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Cq6RAG5bEeWWPs1r19HEkQ" memberEnd="_Cq6RA25bEeWWPs1r19HEkQ _Cq64EG5bEeWWPs1r19HEkQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Cq6RAW5bEeWWPs1r19HEkQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Cq6RAm5bEeWWPs1r19HEkQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Cq6RA25bEeWWPs1r19HEkQ" name="réinitialiser mot de passe" type="_3apIkG5YEeWWPs1r19HEkQ" association="_Cq6RAG5bEeWWPs1r19HEkQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Cq64EG5bEeWWPs1r19HEkQ" name="utilisateur" type="_FugFMG5YEeWBeeka4V8-Mw" association="_Cq6RAG5bEeWWPs1r19HEkQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zMlFUG5bEeWWPs1r19HEkQ" memberEnd="_zMlsYW5bEeWWPs1r19HEkQ _zMlsYm5bEeWWPs1r19HEkQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zMlFUW5bEeWWPs1r19HEkQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zMlsYG5bEeWWPs1r19HEkQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zMlsYW5bEeWWPs1r19HEkQ" name="proposer filleul" type="_hvimsG5bEeWWPs1r19HEkQ" association="_zMlFUG5bEeWWPs1r19HEkQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zMlsYm5bEeWWPs1r19HEkQ" name="parain" type="_GFj6UG5YEeWBeeka4V8-Mw" association="_zMlFUG5bEeWWPs1r19HEkQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0OIB4G5bEeWWPs1r19HEkQ" memberEnd="_0OIB425bEeWWPs1r19HEkQ _0OIo8G5bEeWWPs1r19HEkQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0OIB4W5bEeWWPs1r19HEkQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0OIB4m5bEeWWPs1r19HEkQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0OIB425bEeWWPs1r19HEkQ" name="accompagner filleul" type="_iom8sG5bEeWWPs1r19HEkQ" association="_0OIB4G5bEeWWPs1r19HEkQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0OIo8G5bEeWWPs1r19HEkQ" name="parain" type="_GFj6UG5YEeWBeeka4V8-Mw" association="_0OIB4G5bEeWWPs1r19HEkQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_57WDYG5bEeWWPs1r19HEkQ" memberEnd="_57Wqcm5bEeWWPs1r19HEkQ _57Wqc25bEeWWPs1r19HEkQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_57WqcG5bEeWWPs1r19HEkQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_57WqcW5bEeWWPs1r19HEkQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_57Wqcm5bEeWWPs1r19HEkQ" name="choisir parain" type="_hjzQwG5bEeWWPs1r19HEkQ" association="_57WDYG5bEeWWPs1r19HEkQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_57Wqc25bEeWWPs1r19HEkQ" name="filleul" type="_GOP8QG5YEeWBeeka4V8-Mw" association="_57WDYG5bEeWWPs1r19HEkQ"/>
+  </packagedElement>
+</uml:Model>
