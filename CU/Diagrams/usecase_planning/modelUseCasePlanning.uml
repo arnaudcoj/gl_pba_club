@@ -7,19 +7,15 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_ztUJ8G5SEeWG1cApOC5MXg" name="Annuler une séance">
       <generalization xmi:type="uml:Generalization" xmi:id="_c912cG5UEeWlrvafgvF46g" general="_uTK1cG5SEeWG1cApOC5MXg"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_hK33kG5UEeWlrvafgvF46g" name="ExtensionPoint1"/>
-      <include xmi:type="uml:Include" xmi:id="_iJfb8G5UEeWlrvafgvF46g" addition="_MygswG5TEeWG1cApOC5MXg"/>
-      <include xmi:type="uml:Include" xmi:id="_ivOmQG5UEeWlrvafgvF46g" addition="_Tddh0G5TEeWG1cApOC5MXg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_6Ih54G5SEeWG1cApOC5MXg" name="Valider une séance">
       <generalization xmi:type="uml:Generalization" xmi:id="_dltHsG5UEeWlrvafgvF46g" general="_uTK1cG5SEeWG1cApOC5MXg"/>
       <include xmi:type="uml:Include" xmi:id="_maIxwG5UEeWlrvafgvF46g" addition="_bH7TIG5TEeWG1cApOC5MXg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_8cCNkG5SEeWG1cApOC5MXg" name="Plannifier une séance">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8cCNkG5SEeWG1cApOC5MXg" name="Planifier une séance">
       <generalization xmi:type="uml:Generalization" xmi:id="_eEJ-QG5UEeWlrvafgvF46g" general="_uTK1cG5SEeWG1cApOC5MXg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_MygswG5TEeWG1cApOC5MXg" name="Rembourser les inscrits"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_Tddh0G5TEeWG1cApOC5MXg" name="Prévenir les inscrit de l'annulation"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_bH7TIG5TEeWG1cApOC5MXg" name="Rentrer les présences pour le système de fidelité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bH7TIG5TEeWG1cApOC5MXg" name="Rentrer les présences pour le système de crédits"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_DDq-AG5VEeWlrvafgvF46g" name="Acheter des crédits">
       <include xmi:type="uml:Include" xmi:id="_3LvRQG5VEeWlrvafgvF46g" addition="_OkrjEG5VEeWlrvafgvF46g"/>
     </packagedElement>
@@ -32,12 +28,11 @@
       <extend xmi:type="uml:Extend" xmi:id="_7lh8AG5VEeWlrvafgvF46g" extendedCase="_HSXMAG5VEeWlrvafgvF46g" extensionLocation="_7lh8AW5VEeWlrvafgvF46g"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_88lOgW5VEeWlrvafgvF46g" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_R2nYcG5WEeWlrvafgvF46g" name="Gérer événements">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_R2nYcG5WEeWlrvafgvF46g" name="Gérer un événement">
       <include xmi:type="uml:Include" xmi:id="_JL0R4G5eEeWlrvafgvF46g" addition="_OkrjEG5VEeWlrvafgvF46g"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_kCxm4G5WEeWlrvafgvF46g" name="Organiser un événement">
       <generalization xmi:type="uml:Generalization" xmi:id="_A2OkIG5XEeWlrvafgvF46g" general="_R2nYcG5WEeWlrvafgvF46g"/>
-      <include xmi:type="uml:Include" xmi:id="_FMk5UG5XEeWlrvafgvF46g" addition="_z4W_gG5WEeWlrvafgvF46g"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_nouZ4G5WEeWlrvafgvF46g" name="Modifier un événement">
       <generalization xmi:type="uml:Generalization" xmi:id="_BsPmIG5XEeWlrvafgvF46g" general="_R2nYcG5WEeWlrvafgvF46g"/>
@@ -45,7 +40,6 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_q57r8G5WEeWlrvafgvF46g" name="Annuler un événement">
       <generalization xmi:type="uml:Generalization" xmi:id="_CX-DsG5XEeWlrvafgvF46g" general="_R2nYcG5WEeWlrvafgvF46g"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_z4W_gG5WEeWlrvafgvF46g" name="Choisir la plage horaire de l'évennement"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_rH9y0G5UEeWlrvafgvF46g" name="Chargé de scéance"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_wX9s0G5UEeWlrvafgvF46g" memberEnd="_wYEagG5UEeWlrvafgvF46g _wYFBkG5UEeWlrvafgvF46g">

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_mb6nsG6GEeWokJws-2yCBw" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_I8bcIG6MEeW2_dbdYXEB2A" name="Utilisateur" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Uz2WEG6MEeW2_dbdYXEB2A" name="Client">
+    <generalization xmi:type="uml:Generalization" xmi:id="_tlC-0G6MEeW2_dbdYXEB2A" general="_I8bcIG6MEeW2_dbdYXEB2A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_V4nlwG6MEeW2_dbdYXEB2A" name="Chargé de séance">
+    <generalization xmi:type="uml:Generalization" xmi:id="_tH-oUG6MEeW2_dbdYXEB2A" general="_I8bcIG6MEeW2_dbdYXEB2A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XpE2wG6MEeW2_dbdYXEB2A" name="Administrateur">
+    <generalization xmi:type="uml:Generalization" xmi:id="_stMw0G6MEeW2_dbdYXEB2A" general="_I8bcIG6MEeW2_dbdYXEB2A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aEJyEG6MEeW2_dbdYXEB2A" name="Crédit"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bt5-IG6MEeW2_dbdYXEB2A" name="Séance"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dLXaoG6MEeW2_dbdYXEB2A" name="Événement">
+    <generalization xmi:type="uml:Generalization" xmi:id="_wTT74G6MEeW2_dbdYXEB2A" general="_bt5-IG6MEeW2_dbdYXEB2A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_e11YYG6MEeW2_dbdYXEB2A" name="Vidéo"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fuFPAG6MEeW2_dbdYXEB2A" name="Chat"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_giP24G6MEeW2_dbdYXEB2A" name="Live">
+    <generalization xmi:type="uml:Generalization" xmi:id="_vOuSYG6MEeW2_dbdYXEB2A" general="_e11YYG6MEeW2_dbdYXEB2A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hmT78G6MEeW2_dbdYXEB2A" name="Rediffusion">
+    <generalization xmi:type="uml:Generalization" xmi:id="_vhjHwG6MEeW2_dbdYXEB2A" general="_e11YYG6MEeW2_dbdYXEB2A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_imveMG6MEeW2_dbdYXEB2A" name="Boîte à idées"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kwLP4G6MEeW2_dbdYXEB2A" name="Sponsor"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lfel4G6MEeW2_dbdYXEB2A" name="Particulier">
+    <generalization xmi:type="uml:Generalization" xmi:id="_uOpVcG6MEeW2_dbdYXEB2A" general="_kwLP4G6MEeW2_dbdYXEB2A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ml1J8G6MEeW2_dbdYXEB2A" name="Entreprise">
+    <generalization xmi:type="uml:Generalization" xmi:id="_uy3c0G6MEeW2_dbdYXEB2A" general="_kwLP4G6MEeW2_dbdYXEB2A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_n1IOoG6MEeW2_dbdYXEB2A" name="Score"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pFGowG6MEeW2_dbdYXEB2A" name="Classement"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="__z6jAG6MEeW2_dbdYXEB2A" memberEnd="__z7KEW6MEeW2_dbdYXEB2A __z7KEm6MEeW2_dbdYXEB2A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__z6jAW6MEeW2_dbdYXEB2A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__z7KEG6MEeW2_dbdYXEB2A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__z7KEm6MEeW2_dbdYXEB2A" name="client" type="_Uz2WEG6MEeW2_dbdYXEB2A" association="__z6jAG6MEeW2_dbdYXEB2A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__z7KEW6MEeW2_dbdYXEB2A" name="crédit" type="_aEJyEG6MEeW2_dbdYXEB2A" aggregation="shared" association="__z6jAG6MEeW2_dbdYXEB2A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B-wp8G6NEeW2_dbdYXEB2A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B-x4EG6NEeW2_dbdYXEB2A" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FzECAG6NEeW2_dbdYXEB2A" memberEnd="_FzEpEm6NEeW2_dbdYXEB2A _FzFQIG6NEeW2_dbdYXEB2A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FzEpEG6NEeW2_dbdYXEB2A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FzEpEW6NEeW2_dbdYXEB2A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FzFQIG6NEeW2_dbdYXEB2A" name="séance" type="_bt5-IG6MEeW2_dbdYXEB2A" association="_FzECAG6NEeW2_dbdYXEB2A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IFySkG6NEeW2_dbdYXEB2A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IFzgsG6NEeW2_dbdYXEB2A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FzEpEm6NEeW2_dbdYXEB2A" name="utilisateur" type="_I8bcIG6MEeW2_dbdYXEB2A" aggregation="shared" association="_FzECAG6NEeW2_dbdYXEB2A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JH7FAG6NEeW2_dbdYXEB2A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JH8TIG6NEeW2_dbdYXEB2A" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NgyisG6NEeW2_dbdYXEB2A" memberEnd="_NgzJwm6NEeW2_dbdYXEB2A _Ngzw0G6NEeW2_dbdYXEB2A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NgzJwG6NEeW2_dbdYXEB2A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NgzJwW6NEeW2_dbdYXEB2A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ngzw0G6NEeW2_dbdYXEB2A" name="score" type="_n1IOoG6MEeW2_dbdYXEB2A" aggregation="composite" association="_NgyisG6NEeW2_dbdYXEB2A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_P1l24G6NEeW2_dbdYXEB2A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P1nsEG6NEeW2_dbdYXEB2A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NgzJwm6NEeW2_dbdYXEB2A" name="classement" type="_pFGowG6MEeW2_dbdYXEB2A" association="_NgyisG6NEeW2_dbdYXEB2A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aAHxMG6NEeW2_dbdYXEB2A" memberEnd="_aAIYQm6NEeW2_dbdYXEB2A _aAIYQ26NEeW2_dbdYXEB2A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aAIYQG6NEeW2_dbdYXEB2A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aAIYQW6NEeW2_dbdYXEB2A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aAIYQm6NEeW2_dbdYXEB2A" name="score" type="_n1IOoG6MEeW2_dbdYXEB2A" association="_aAHxMG6NEeW2_dbdYXEB2A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cdmgQG6NEeW2_dbdYXEB2A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cdnHUG6NEeW2_dbdYXEB2A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aAIYQ26NEeW2_dbdYXEB2A" name="client" type="_Uz2WEG6MEeW2_dbdYXEB2A" aggregation="composite" association="_aAHxMG6NEeW2_dbdYXEB2A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gs5yQG6NEeW2_dbdYXEB2A" visibility="public" memberEnd="_gs6ZUm6NEeW2_dbdYXEB2A _gs6ZU26NEeW2_dbdYXEB2A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gs6ZUG6NEeW2_dbdYXEB2A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gs6ZUW6NEeW2_dbdYXEB2A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gs6ZUm6NEeW2_dbdYXEB2A" name="boîte à idées" type="_imveMG6MEeW2_dbdYXEB2A" association="_gs5yQG6NEeW2_dbdYXEB2A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gs6ZU26NEeW2_dbdYXEB2A" name="idée" type="_j7RoMG6MEeW2_dbdYXEB2A" aggregation="composite" association="_gs5yQG6NEeW2_dbdYXEB2A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kyix8G6NEeW2_dbdYXEB2A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kyknIG6NEeW2_dbdYXEB2A" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nmRd0G6NEeW2_dbdYXEB2A" memberEnd="_nmSE4W6NEeW2_dbdYXEB2A _nmSE4m6NEeW2_dbdYXEB2A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nmRd0W6NEeW2_dbdYXEB2A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nmSE4G6NEeW2_dbdYXEB2A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nmSE4m6NEeW2_dbdYXEB2A" name="live" type="_giP24G6MEeW2_dbdYXEB2A" association="_nmRd0G6NEeW2_dbdYXEB2A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nmSE4W6NEeW2_dbdYXEB2A" name="chat" type="_fuFPAG6MEeW2_dbdYXEB2A" aggregation="composite" association="_nmRd0G6NEeW2_dbdYXEB2A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_3DojsG6NEeW2_dbdYXEB2A" name="Broadcasting"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_8zzykG6NEeW2_dbdYXEB2A" name="Planning"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_A6J84G6OEeW2_dbdYXEB2A" name="Sponsoring"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_D_FtgG6OEeW2_dbdYXEB2A" name="Boîte à Idées">
+    <packagedElement xmi:type="uml:Class" xmi:id="_j7RoMG6MEeW2_dbdYXEB2A" name="Idée"/>
+  </packagedElement>
+</uml:Model>

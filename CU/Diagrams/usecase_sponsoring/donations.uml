@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_M54RUG5ZEeW-ptlEm4FF6A" name="RootElement">
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_OVHgQG5ZEeW-ptlEm4FF6A" name="Don particulier standard">
-    <generalization xmi:type="uml:Generalization" xmi:id="_OVHgQW5ZEeW-ptlEm4FF6A" general="_OVJVdm5ZEeW-ptlEm4FF6A"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_OVIuYG5ZEeW-ptlEm4FF6A" name="Don entreprise" isAbstract="true">
     <generalization xmi:type="uml:Generalization" xmi:id="_OVIuYW5ZEeW-ptlEm4FF6A" general="_OVJVcm5ZEeW-ptlEm4FF6A"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_OVIuYm5ZEeW-ptlEm4FF6A" name="Don entreprise (inférieur au seuil)">
-    <generalization xmi:type="uml:Generalization" xmi:id="_OVIuY25ZEeW-ptlEm4FF6A" general="_OVIuYG5ZEeW-ptlEm4FF6A"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_OVJVcG5ZEeW-ptlEm4FF6A" name="Don entreprise (supérieur au seuil)">
-    <generalization xmi:type="uml:Generalization" xmi:id="_OVJVcW5ZEeW-ptlEm4FF6A" general="_OVIuYG5ZEeW-ptlEm4FF6A"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_OVJVcm5ZEeW-ptlEm4FF6A" name="Faire un Don" isAbstract="true"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_OVJVc25ZEeW-ptlEm4FF6A" name="Donations"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_OVJVdG5ZEeW-ptlEm4FF6A" name="Don particulier anonyme">
-    <generalization xmi:type="uml:Generalization" xmi:id="_OVJVdW5ZEeW-ptlEm4FF6A" general="_OVJVdm5ZEeW-ptlEm4FF6A"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_OVJVc25ZEeW-ptlEm4FF6A" name="Donations">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OVJVdG5ZEeW-ptlEm4FF6A" name="Don particulier anonyme">
+      <generalization xmi:type="uml:Generalization" xmi:id="_OVJVdW5ZEeW-ptlEm4FF6A" general="_OVJVdm5ZEeW-ptlEm4FF6A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OVHgQG5ZEeW-ptlEm4FF6A" name="Don particulier standard">
+      <generalization xmi:type="uml:Generalization" xmi:id="_OVHgQW5ZEeW-ptlEm4FF6A" general="_OVJVdm5ZEeW-ptlEm4FF6A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OVIuYm5ZEeW-ptlEm4FF6A" name="Don entreprise (inférieur au seuil)">
+      <generalization xmi:type="uml:Generalization" xmi:id="_OVIuY25ZEeW-ptlEm4FF6A" general="_OVIuYG5ZEeW-ptlEm4FF6A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OVJVcG5ZEeW-ptlEm4FF6A" name="Don entreprise (supérieur au seuil)">
+      <generalization xmi:type="uml:Generalization" xmi:id="_OVJVcW5ZEeW-ptlEm4FF6A" general="_OVIuYG5ZEeW-ptlEm4FF6A"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_OVJVdm5ZEeW-ptlEm4FF6A" name="Don particulier" isAbstract="true">
     <generalization xmi:type="uml:Generalization" xmi:id="_OVJVd25ZEeW-ptlEm4FF6A" general="_OVJVcm5ZEeW-ptlEm4FF6A"/>

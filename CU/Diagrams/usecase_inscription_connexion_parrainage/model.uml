@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_BoiVYG5YEeWBeeka4V8-Mw" name="RootElement">
   <packagedElement xmi:type="uml:Actor" xmi:id="_FugFMG5YEeWBeeka4V8-Mw" name="Utilisateur"/>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_GFj6UG5YEeWBeeka4V8-Mw" name="Parain">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_GFj6UG5YEeWBeeka4V8-Mw" name="Parrain">
     <generalization xmi:type="uml:Generalization" xmi:id="_ik99YG5cEeWWPs1r19HEkQ" general="_FugFMG5YEeWBeeka4V8-Mw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_GOP8QG5YEeWBeeka4V8-Mw" name="Filleul">
     <generalization xmi:type="uml:Generalization" xmi:id="_gF-LYG5cEeWWPs1r19HEkQ" general="_FugFMG5YEeWBeeka4V8-Mw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_YvwvoG5YEeWBeeka4V8-Mw" name="Inscription/parrainage/connection">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_1O0KMG5YEeWWPs1r19HEkQ" name="se connecter">
+  <packagedElement xmi:type="uml:Package" xmi:id="_YvwvoG5YEeWBeeka4V8-Mw" name="Inscription/Parrainage/Connexion">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1O0KMG5YEeWWPs1r19HEkQ" name="Se connecter">
       <extend xmi:type="uml:Extend" xmi:id="_OxcIgG5cEeWWPs1r19HEkQ" extendedCase="_hvimsG5bEeWWPs1r19HEkQ" extensionLocation="_OxcIgW5cEeWWPs1r19HEkQ"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_aJGZwG5bEeWWPs1r19HEkQ" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_1sj2IG5YEeWWPs1r19HEkQ" name="se déconnecter">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1sj2IG5YEeWWPs1r19HEkQ" name="Se déconnecter">
       <extend xmi:type="uml:Extend" xmi:id="_aJFysG5bEeWWPs1r19HEkQ" extendedCase="_1O0KMG5YEeWWPs1r19HEkQ" extensionLocation="_aJGZwG5bEeWWPs1r19HEkQ"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Oj87kW5bEeWWPs1r19HEkQ" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_3apIkG5YEeWWPs1r19HEkQ" name="réinitialiser mot de passe">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3apIkG5YEeWWPs1r19HEkQ" name="Réinitialiser mot de passe">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cc0awG5ZEeWWPs1r19HEkQ" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_FmnpoG5aEeWWPs1r19HEkQ" name="s'inscrire">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FmnpoG5aEeWWPs1r19HEkQ" name="S'inscrire">
       <extend xmi:type="uml:Extend" xmi:id="_F0xIcG5cEeWWPs1r19HEkQ" extendedCase="_hjzQwG5bEeWWPs1r19HEkQ" extensionLocation="_F0xIcW5cEeWWPs1r19HEkQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_hjzQwG5bEeWWPs1r19HEkQ" name="choisir parain">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hjzQwG5bEeWWPs1r19HEkQ" name="Choisir Parrain">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_F0xIcW5cEeWWPs1r19HEkQ" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_hvimsG5bEeWWPs1r19HEkQ" name="proposer filleul">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hvimsG5bEeWWPs1r19HEkQ" name="Proposer filleul">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_OxcIgW5cEeWWPs1r19HEkQ" name="ExtensionPoint1"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_iom8sG5bEeWWPs1r19HEkQ" name="accompagner filleul"/>

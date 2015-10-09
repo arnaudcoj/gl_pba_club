@@ -91,7 +91,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JCtEGG5cEeWcWZTm_c81tw"/>
     </children>
     <element xmi:type="uml:UseCase" href="sponsoring.uml#_JCtEEG5cEeWcWZTm_c81tw"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JCtEHG5cEeWcWZTm_c81tw" x="540" y="164" width="197" height="65"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JCtEHG5cEeWcWZTm_c81tw" x="540" y="164" width="242" height="65"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_uAAo4W5SEeWABqLtYtiX-Q" name="diagram_compatibility_version" stringValue="1.1.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_uAAo4m5SEeWABqLtYtiX-Q"/>
