@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_lzsPEG5PEeW_JseOqq100w" name="RootElement">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_l5f8IG5PEeW_JseOqq100w" name="Activity1"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_0U3ZgG5PEeW_JseOqq100w" name="Classement">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9CROgG5PEeW_JseOqq100w" name="Indiquer à l'ordinateur le joueur actuel"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BncC0G5QEeW_JseOqq100w" name="Consulter le classement"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DONzYG5QEeW_JseOqq100w" name="Consulter ses scores">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_CjUtMG5ZEeWfeYV4R3a_Iw" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_eaqDoG5dEeWfeYV4R3a_Iw" addition="_hnAr4G5SEeW_JseOqq100w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hnAr4G5SEeW_JseOqq100w" name="s'identifier">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_h-L8IG5aEeWfeYV4R3a_Iw" name="ExtensionPoint1"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_2ksHEG5PEeW_JseOqq100w" name="Chargé de séance">
+    <generalization xmi:type="uml:Generalization" xmi:id="_P5A0kG5cEeWfeYV4R3a_Iw" general="_MGJm8G5cEeWfeYV4R3a_Iw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_4xYBEG5PEeW_JseOqq100w" name="Client">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Qc5kwG5cEeWfeYV4R3a_Iw" general="_MGJm8G5cEeWfeYV4R3a_Iw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HK980G5QEeW_JseOqq100w" memberEnd="_HLPpoG5QEeW_JseOqq100w _HLPpoW5QEeW_JseOqq100w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HK_K8G5QEeW_JseOqq100w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HK_K8W5QEeW_JseOqq100w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HLPpoG5QEeW_JseOqq100w" name="indiquer à l'ordinateur le joueur actuel" type="_9CROgG5PEeW_JseOqq100w" association="_HK980G5QEeW_JseOqq100w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HLPpoW5QEeW_JseOqq100w" name="chargé de séance" type="_2ksHEG5PEeW_JseOqq100w" association="_HK980G5QEeW_JseOqq100w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_MGJm8G5cEeWfeYV4R3a_Iw" name="Utilisateur"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RBDasG5cEeWfeYV4R3a_Iw" memberEnd="_RBF28G5cEeWfeYV4R3a_Iw _RBGeAG5cEeWfeYV4R3a_Iw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RBEo0G5cEeWfeYV4R3a_Iw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RBFP4G5cEeWfeYV4R3a_Iw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RBF28G5cEeWfeYV4R3a_Iw" name="consulter le classement" type="_BncC0G5QEeW_JseOqq100w" association="_RBDasG5cEeWfeYV4R3a_Iw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RBGeAG5cEeWfeYV4R3a_Iw" name="utilisateur" type="_MGJm8G5cEeWfeYV4R3a_Iw" association="_RBDasG5cEeWfeYV4R3a_Iw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gQrKEG5dEeWfeYV4R3a_Iw" memberEnd="_gQrxIm5dEeWfeYV4R3a_Iw _gQrxI25dEeWfeYV4R3a_Iw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gQrxIG5dEeWfeYV4R3a_Iw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gQrxIW5dEeWfeYV4R3a_Iw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gQrxIm5dEeWfeYV4R3a_Iw" name="client" type="_4xYBEG5PEeW_JseOqq100w" association="_gQrKEG5dEeWfeYV4R3a_Iw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gQrxI25dEeWfeYV4R3a_Iw" name="consulter ses scores" type="_DONzYG5QEeW_JseOqq100w" association="_gQrKEG5dEeWfeYV4R3a_Iw"/>
+  </packagedElement>
+</uml:Model>

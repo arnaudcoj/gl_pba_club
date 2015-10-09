@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_mgKMIG5SEeWG1cApOC5MXg" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_nyD44G5SEeWG1cApOC5MXg" name="Planning">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_uTK1cG5SEeWG1cApOC5MXg" name="Gérer les séances">
+      <include xmi:type="uml:Include" xmi:id="_Kj3C4G5eEeWlrvafgvF46g" addition="_OkrjEG5VEeWlrvafgvF46g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ztUJ8G5SEeWG1cApOC5MXg" name="Annuler une séance">
+      <generalization xmi:type="uml:Generalization" xmi:id="_c912cG5UEeWlrvafgvF46g" general="_uTK1cG5SEeWG1cApOC5MXg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_hK33kG5UEeWlrvafgvF46g" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_iJfb8G5UEeWlrvafgvF46g" addition="_MygswG5TEeWG1cApOC5MXg"/>
+      <include xmi:type="uml:Include" xmi:id="_ivOmQG5UEeWlrvafgvF46g" addition="_Tddh0G5TEeWG1cApOC5MXg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6Ih54G5SEeWG1cApOC5MXg" name="Valider une séance">
+      <generalization xmi:type="uml:Generalization" xmi:id="_dltHsG5UEeWlrvafgvF46g" general="_uTK1cG5SEeWG1cApOC5MXg"/>
+      <include xmi:type="uml:Include" xmi:id="_maIxwG5UEeWlrvafgvF46g" addition="_bH7TIG5TEeWG1cApOC5MXg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8cCNkG5SEeWG1cApOC5MXg" name="Plannifier une séance">
+      <generalization xmi:type="uml:Generalization" xmi:id="_eEJ-QG5UEeWlrvafgvF46g" general="_uTK1cG5SEeWG1cApOC5MXg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MygswG5TEeWG1cApOC5MXg" name="Rembourser les inscrits"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Tddh0G5TEeWG1cApOC5MXg" name="Prévenir les inscrit de l'annulation"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bH7TIG5TEeWG1cApOC5MXg" name="Rentrer les présences pour le système de fidelité"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DDq-AG5VEeWlrvafgvF46g" name="Acheter des crédits">
+      <include xmi:type="uml:Include" xmi:id="_3LvRQG5VEeWlrvafgvF46g" addition="_OkrjEG5VEeWlrvafgvF46g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HSXMAG5VEeWlrvafgvF46g" name="S'inscrire à une séance">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_7lh8AW5VEeWlrvafgvF46g" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_48O-gG5VEeWlrvafgvF46g" addition="_OkrjEG5VEeWlrvafgvF46g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OkrjEG5VEeWlrvafgvF46g" name="S'identifier"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hUWuQG5VEeWlrvafgvF46g" name="Annuler une inscription">
+      <extend xmi:type="uml:Extend" xmi:id="_7lh8AG5VEeWlrvafgvF46g" extendedCase="_HSXMAG5VEeWlrvafgvF46g" extensionLocation="_7lh8AW5VEeWlrvafgvF46g"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_88lOgW5VEeWlrvafgvF46g" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_R2nYcG5WEeWlrvafgvF46g" name="Gérer événements">
+      <include xmi:type="uml:Include" xmi:id="_JL0R4G5eEeWlrvafgvF46g" addition="_OkrjEG5VEeWlrvafgvF46g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_kCxm4G5WEeWlrvafgvF46g" name="Organiser un événement">
+      <generalization xmi:type="uml:Generalization" xmi:id="_A2OkIG5XEeWlrvafgvF46g" general="_R2nYcG5WEeWlrvafgvF46g"/>
+      <include xmi:type="uml:Include" xmi:id="_FMk5UG5XEeWlrvafgvF46g" addition="_z4W_gG5WEeWlrvafgvF46g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nouZ4G5WEeWlrvafgvF46g" name="Modifier un événement">
+      <generalization xmi:type="uml:Generalization" xmi:id="_BsPmIG5XEeWlrvafgvF46g" general="_R2nYcG5WEeWlrvafgvF46g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_q57r8G5WEeWlrvafgvF46g" name="Annuler un événement">
+      <generalization xmi:type="uml:Generalization" xmi:id="_CX-DsG5XEeWlrvafgvF46g" general="_R2nYcG5WEeWlrvafgvF46g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_z4W_gG5WEeWlrvafgvF46g" name="Choisir la plage horaire de l'évennement"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_rH9y0G5UEeWlrvafgvF46g" name="Chargé de scéance"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wX9s0G5UEeWlrvafgvF46g" memberEnd="_wYEagG5UEeWlrvafgvF46g _wYFBkG5UEeWlrvafgvF46g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wX-68G5UEeWlrvafgvF46g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wX_iAG5UEeWlrvafgvF46g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wYEagG5UEeWlrvafgvF46g" name="gérer les séances" type="_uTK1cG5SEeWG1cApOC5MXg" association="_wX9s0G5UEeWlrvafgvF46g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wYFBkG5UEeWlrvafgvF46g" name="chargé de scéance" type="_rH9y0G5UEeWlrvafgvF46g" association="_wX9s0G5UEeWlrvafgvF46g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_zs6Z8G5VEeWlrvafgvF46g" name="Client"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1N9V8G5VEeWlrvafgvF46g" memberEnd="_1N99Am5VEeWlrvafgvF46g _1N99A25VEeWlrvafgvF46g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1N99AG5VEeWlrvafgvF46g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1N99AW5VEeWlrvafgvF46g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1N99Am5VEeWlrvafgvF46g" name="acheter des crédits" type="_DDq-AG5VEeWlrvafgvF46g" association="_1N9V8G5VEeWlrvafgvF46g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1N99A25VEeWlrvafgvF46g" name="client" type="_zs6Z8G5VEeWlrvafgvF46g" association="_1N9V8G5VEeWlrvafgvF46g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1tKacG5VEeWlrvafgvF46g" memberEnd="_1tLBgW5VEeWlrvafgvF46g _1tLBgm5VEeWlrvafgvF46g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1tKacW5VEeWlrvafgvF46g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1tLBgG5VEeWlrvafgvF46g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1tLBgW5VEeWlrvafgvF46g" name="s'inscrire à une séance" type="_HSXMAG5VEeWlrvafgvF46g" association="_1tKacG5VEeWlrvafgvF46g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1tLBgm5VEeWlrvafgvF46g" name="client" type="_zs6Z8G5VEeWlrvafgvF46g" association="_1tKacG5VEeWlrvafgvF46g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_KNttYG5WEeWlrvafgvF46g" name="Gestionnaire événements"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AMHQIG5XEeWlrvafgvF46g" memberEnd="_AMH3Mm5XEeWlrvafgvF46g _AMH3M25XEeWlrvafgvF46g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AMH3MG5XEeWlrvafgvF46g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AMH3MW5XEeWlrvafgvF46g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AMH3Mm5XEeWlrvafgvF46g" name="gérer événements" type="_R2nYcG5WEeWlrvafgvF46g" association="_AMHQIG5XEeWlrvafgvF46g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AMH3M25XEeWlrvafgvF46g" name="gestionnaire événements" type="_KNttYG5WEeWlrvafgvF46g" association="_AMHQIG5XEeWlrvafgvF46g"/>
+  </packagedElement>
+</uml:Model>
