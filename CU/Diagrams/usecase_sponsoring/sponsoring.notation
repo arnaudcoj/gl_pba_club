@@ -53,7 +53,7 @@
   </children>
   <children xmi:type="notation:Shape" xmi:id="_EoPD4G5cEeWcWZTm_c81tw" type="2011">
     <children xmi:type="notation:DecorationNode" xmi:id="_EoPD4m5cEeWcWZTm_c81tw" type="5014">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_EoPD425cEeWcWZTm_c81tw" x="18" y="142"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_EoPD425cEeWcWZTm_c81tw" x="12" y="130"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_EoPD5G5cEeWcWZTm_c81tw" type="6029">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_EoPD5W5cEeWcWZTm_c81tw" x="20" y="100"/>
@@ -65,7 +65,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_EoPD6W5cEeWcWZTm_c81tw" y="5"/>
     </children>
     <element xmi:type="uml:Actor" href="sponsoring.uml#_EoN1wG5cEeWcWZTm_c81tw"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EoPD4W5cEeWcWZTm_c81tw" x="51" y="246" width="74" height="112"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EoPD4W5cEeWcWZTm_c81tw" x="48" y="275" width="74" height="112"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_IAxF8G5cEeWcWZTm_c81tw" type="2013">
     <children xmi:type="notation:DecorationNode" xmi:id="_IAxF8m5cEeWcWZTm_c81tw" type="5016"/>
@@ -122,8 +122,8 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_GUACIW5cEeWcWZTm_c81tw"/>
     <element xmi:type="uml:Association" href="sponsoring.uml#_GT-M8G5cEeWcWZTm_c81tw"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GUACIm5cEeWcWZTm_c81tw" points="[33, -6, -226, 37]$[159, -39, -100, 4]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GULoUG5cEeWcWZTm_c81tw" id="(1.0,0.48214285714285715)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GULoUW5cEeWcWZTm_c81tw" id="(0.0,0.7169811320754716)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GULoUG5cEeWcWZTm_c81tw" id="(1.0,0.4732142857142857)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GULoUW5cEeWcWZTm_c81tw" id="(0.0,0.6415094339622641)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_GyR5kG5cEeWcWZTm_c81tw" type="4011" source="_CMwf8G5cEeWcWZTm_c81tw" target="_79fhUG5bEeWcWZTm_c81tw">
     <children xmi:type="notation:DecorationNode" xmi:id="_GyR5k25cEeWcWZTm_c81tw" type="6008">

@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hv40AGzyEeWpJqAjKjS-gA" name="RootElement">
   <packagedElement xmi:type="uml:Package" xmi:id="_kRZHcGzyEeWpJqAjKjS-gA" name="Broadcasting">
-    <ownedComment xmi:type="uml:Comment" xmi:id="_kgHDcGzzEeWpJqAjKjS-gA" annotatedElement="_HxVx4GzzEeWpJqAjKjS-gA">
-      <body>Les informations importantes correspondent au nom du chargé de séance, au noms des participants de la séance et la tranche horaire de la séance
-</body>
-    </ownedComment>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_nd778GzyEeWpJqAjKjS-gA" name="Transmettre une vidéo en live">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_y68iwW5bEeWlrvafgvF46g" name="ExtensionPoint1"/>
       <include xmi:type="uml:Include" xmi:id="_xw2uMG5bEeWlrvafgvF46g" addition="_-BzVAGzzEeWpJqAjKjS-gA"/>
       <include xmi:type="uml:Include" xmi:id="_yfyQwG5bEeWlrvafgvF46g" addition="_8K1o0GzyEeWpJqAjKjS-gA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_8K1o0GzyEeWpJqAjKjS-gA" name="Configurer le live"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_Ch7twGzzEeWpJqAjKjS-gA" name="Connecter caméra">
-      <generalization xmi:type="uml:Generalization" xmi:id="_dF8X8GzzEeWpJqAjKjS-gA" general="_8K1o0GzyEeWpJqAjKjS-gA"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_HxVx4GzzEeWpJqAjKjS-gA" name="Remplir les informations importantes">
-      <generalization xmi:type="uml:Generalization" xmi:id="_Y35DIGzzEeWpJqAjKjS-gA" general="_8K1o0GzyEeWpJqAjKjS-gA"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_S_vkAGzzEeWpJqAjKjS-gA" name="Activer l'enregistrement pour la redifusion">
-      <generalization xmi:type="uml:Generalization" xmi:id="_YR4zEGzzEeWpJqAjKjS-gA" general="_8K1o0GzyEeWpJqAjKjS-gA"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_7a8ngGzzEeWpJqAjKjS-gA" name="Lire le chat">
       <extend xmi:type="uml:Extend" xmi:id="_JOut4G5cEeWlrvafgvF46g" extendedCase="_CXH84G5cEeWlrvafgvF46g" extensionLocation="_JOut4W5cEeWlrvafgvF46g"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_HmSjAGz0EeWpJqAjKjS-gA" name="ExtensionPoint1"/>
@@ -28,23 +15,32 @@
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_LPVGQWz0EeWpJqAjKjS-gA" name="ExtensionPoint1"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_hrS9AGz0EeWpJqAjKjS-gA" name="Regarder une redifusion">
-      <include xmi:type="uml:Include" xmi:id="_wQPQAG5bEeWlrvafgvF46g" addition="_ZR1iQGz1EeWpJqAjKjS-gA"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_l40FgHlZEeWLhNZKLo9r-w" general="_LSUvEHlZEeWLhNZKLo9r-w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_pMmLQGz0EeWpJqAjKjS-gA" name="Regarder un live">
+      <generalization xmi:type="uml:Generalization" xmi:id="_maoZIHlZEeWLhNZKLo9r-w" general="_LSUvEHlZEeWLhNZKLo9r-w"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_uG2hoG5bEeWlrvafgvF46g" name="ExtensionPoint1"/>
-      <include xmi:type="uml:Include" xmi:id="_vuPWMG5bEeWlrvafgvF46g" addition="_ZR1iQGz1EeWpJqAjKjS-gA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_yesBsGz0EeWpJqAjKjS-gA" name="Commenter dans le chat">
-      <extend xmi:type="uml:Extend" xmi:id="_uG1TgG5bEeWlrvafgvF46g" extendedCase="_pMmLQGz0EeWpJqAjKjS-gA" extensionLocation="_uG2hoG5bEeWlrvafgvF46g"/>
+      <extend xmi:type="uml:Extend" xmi:id="_uG1TgG5bEeWlrvafgvF46g" extendedCase="_LSUvEHlZEeWLhNZKLo9r-w" extensionLocation="_uG2hoG5bEeWlrvafgvF46g"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_jMKdYGz1EeWpJqAjKjS-gA" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_l9sw4Wz1EeWpJqAjKjS-gA" name="ExtensionPoint2"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_FW_kcGz1EeWpJqAjKjS-gA" name="Configurer le chat">
-      <generalization xmi:type="uml:Generalization" xmi:id="_oel4sG2XEeWiFqsfVagKZg" general="_8K1o0GzyEeWpJqAjKjS-gA"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZR1iQGz1EeWpJqAjKjS-gA" name="Vérifier l'identification">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EdrWAHlaEeWLhNZKLo9r-w" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZR1iQGz1EeWpJqAjKjS-gA" name="S'identifier"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_CXH84G5cEeWlrvafgvF46g" name="Participer au live">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_JOut4W5cEeWlrvafgvF46g" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ID2A4HlZEeWLhNZKLo9r-w" name="CopyOf_Regarder un live_1">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ID2A4XlZEeWLhNZKLo9r-w" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_ID2n8HlZEeWLhNZKLo9r-w" addition="_ZR1iQGz1EeWpJqAjKjS-gA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LSUvEHlZEeWLhNZKLo9r-w" name="Regarder un flux vidéo">
+      <include xmi:type="uml:Include" xmi:id="_wQPQAG5bEeWlrvafgvF46g" addition="_ZR1iQGz1EeWpJqAjKjS-gA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9ead0HlZEeWLhNZKLo9r-w" name="S'identifier">
+      <extend xmi:type="uml:Extend" xmi:id="_EdqH4HlaEeWLhNZKLo9r-w" extendedCase="_ZR1iQGz1EeWpJqAjKjS-gA" extensionLocation="_EdrWAHlaEeWLhNZKLo9r-w"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_IgB8gGz2EeWpJqAjKjS-gA" name="Chargé de séance">
@@ -56,14 +52,7 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Xeh8IWz2EeWpJqAjKjS-gA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Xeh8Imz2EeWpJqAjKjS-gA" name="regardé un live" type="_pMmLQGz0EeWpJqAjKjS-gA" association="_XehVEGz2EeWpJqAjKjS-gA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Xeh8I2z2EeWpJqAjKjS-gA" name="utilisateur (cliant,employé)" type="_JOjPYGz2EeWpJqAjKjS-gA" association="_XehVEGz2EeWpJqAjKjS-gA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_YFvGEGz2EeWpJqAjKjS-gA" memberEnd="_YFvtImz2EeWpJqAjKjS-gA _YFvtI2z2EeWpJqAjKjS-gA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YFvtIGz2EeWpJqAjKjS-gA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YFvtIWz2EeWpJqAjKjS-gA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_YFvtImz2EeWpJqAjKjS-gA" name="regarder une redifusion" type="_hrS9AGz0EeWpJqAjKjS-gA" association="_YFvGEGz2EeWpJqAjKjS-gA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_YFvtI2z2EeWpJqAjKjS-gA" name="utilisateur (cliant,employé)" type="_JOjPYGz2EeWpJqAjKjS-gA" association="_YFvGEGz2EeWpJqAjKjS-gA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Xeh8I2z2EeWpJqAjKjS-gA" name="utilisateur (cliant,employé)" type="_LSUvEHlZEeWLhNZKLo9r-w" association="_XehVEGz2EeWpJqAjKjS-gA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_YuGGkGz2EeWpJqAjKjS-gA" memberEnd="_YuGGk2z2EeWpJqAjKjS-gA _YuGGlGz2EeWpJqAjKjS-gA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YuGGkWz2EeWpJqAjKjS-gA" source="org.eclipse.papyrus">

@@ -28,7 +28,7 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_hvimsG5bEeWWPs1r19HEkQ" name="Proposer filleul">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_OxcIgW5cEeWWPs1r19HEkQ" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_iom8sG5bEeWWPs1r19HEkQ" name="accompagner filleul"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iom8sG5bEeWWPs1r19HEkQ" name="Accompagner filleul(e)"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_O10kIG5aEeWWPs1r19HEkQ" memberEnd="_O11LMm5aEeWWPs1r19HEkQ _O11LM25aEeWWPs1r19HEkQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O11LMG5aEeWWPs1r19HEkQ" source="org.eclipse.papyrus">

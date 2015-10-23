@@ -6,10 +6,10 @@
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_vEYEYG5cEeWlrvafgvF46g" name="ExtensionPoint1"/>
       <include xmi:type="uml:Include" xmi:id="_xc3lwG5cEeWlrvafgvF46g" addition="_NfU6UGzxEeWpJqAjKjS-gA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_MXK04GzwEeWpJqAjKjS-gA" name="+1">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MXK04GzwEeWpJqAjKjS-gA" name="Voter pour">
       <generalization xmi:type="uml:Generalization" xmi:id="_Pp-pcGzwEeWpJqAjKjS-gA" general="_IbGn8GzwEeWpJqAjKjS-gA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_NZa8EGzwEeWpJqAjKjS-gA" name="-1">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NZa8EGzwEeWpJqAjKjS-gA" name="Voter contre">
       <generalization xmi:type="uml:Generalization" xmi:id="_OnNk4GzwEeWpJqAjKjS-gA" general="_IbGn8GzwEeWpJqAjKjS-gA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_Q7xogGzwEeWpJqAjKjS-gA" name="Retirer appréciation">
@@ -19,15 +19,20 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_5Yu_gGzwEeWpJqAjKjS-gA" name="Proposer une idée">
       <include xmi:type="uml:Include" xmi:id="_yHqPMG5cEeWlrvafgvF46g" addition="_NfU6UGzxEeWpJqAjKjS-gA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_NfU6UGzxEeWpJqAjKjS-gA" name="S'identifier"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NfU6UGzxEeWpJqAjKjS-gA" name="Vérifier l'identification">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_uc5xAXlaEeWLhNZKLo9r-w" name="ExtensionPoint1"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_mGBjQGzxEeWpJqAjKjS-gA" name="Gérer la liste des idées">
       <include xmi:type="uml:Include" xmi:id="_y0I6sG5cEeWlrvafgvF46g" addition="_NfU6UGzxEeWpJqAjKjS-gA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_sIxv4GzxEeWpJqAjKjS-gA" name="Valider un idée">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sIxv4GzxEeWpJqAjKjS-gA" name="Valider une idée">
       <generalization xmi:type="uml:Generalization" xmi:id="_2Iao0GzxEeWpJqAjKjS-gA" general="_mGBjQGzxEeWpJqAjKjS-gA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_uUXdsGzxEeWpJqAjKjS-gA" name="Supprimer une idée">
       <generalization xmi:type="uml:Generalization" xmi:id="_3xopYGzxEeWpJqAjKjS-gA" general="_mGBjQGzxEeWpJqAjKjS-gA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_pTgOQHlaEeWLhNZKLo9r-w" name="S'identifier">
+      <extend xmi:type="uml:Extend" xmi:id="_uc5xAHlaEeWLhNZKLo9r-w" extendedCase="_NfU6UGzxEeWpJqAjKjS-gA" extensionLocation="_uc5xAXlaEeWLhNZKLo9r-w"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_N6PmoGzvEeWpJqAjKjS-gA" name="Utilisateur (Client, Employé)"/>

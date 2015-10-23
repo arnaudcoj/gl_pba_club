@@ -4,12 +4,6 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_Uz2WEG6MEeW2_dbdYXEB2A" name="Client">
     <generalization xmi:type="uml:Generalization" xmi:id="_tlC-0G6MEeW2_dbdYXEB2A" general="_I8bcIG6MEeW2_dbdYXEB2A"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_V4nlwG6MEeW2_dbdYXEB2A" name="Chargé de séance">
-    <generalization xmi:type="uml:Generalization" xmi:id="_tH-oUG6MEeW2_dbdYXEB2A" general="_I8bcIG6MEeW2_dbdYXEB2A"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_XpE2wG6MEeW2_dbdYXEB2A" name="Administrateur">
-    <generalization xmi:type="uml:Generalization" xmi:id="_stMw0G6MEeW2_dbdYXEB2A" general="_I8bcIG6MEeW2_dbdYXEB2A"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_aEJyEG6MEeW2_dbdYXEB2A" name="Crédit"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_bt5-IG6MEeW2_dbdYXEB2A" name="Séance"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_dLXaoG6MEeW2_dbdYXEB2A" name="Événement">
@@ -94,7 +88,11 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_nmSE4W6NEeW2_dbdYXEB2A" name="chat" type="_fuFPAG6MEeW2_dbdYXEB2A" aggregation="composite" association="_nmRd0G6NEeW2_dbdYXEB2A"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_3DojsG6NEeW2_dbdYXEB2A" name="Broadcasting"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_8zzykG6NEeW2_dbdYXEB2A" name="Planning"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_8zzykG6NEeW2_dbdYXEB2A" name="Planning">
+    <packagedElement xmi:type="uml:Class" xmi:id="_V4nlwG6MEeW2_dbdYXEB2A" name="Chargé de séance">
+      <generalization xmi:type="uml:Generalization" xmi:id="_tH-oUG6MEeW2_dbdYXEB2A" general="_I8bcIG6MEeW2_dbdYXEB2A"/>
+    </packagedElement>
+  </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_A6J84G6OEeW2_dbdYXEB2A" name="Sponsoring"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_D_FtgG6OEeW2_dbdYXEB2A" name="Boîte à Idées">
     <packagedElement xmi:type="uml:Class" xmi:id="_j7RoMG6MEeW2_dbdYXEB2A" name="Idée"/>

@@ -8,8 +8,12 @@
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_CjUtMG5ZEeWfeYV4R3a_Iw" name="ExtensionPoint1"/>
       <include xmi:type="uml:Include" xmi:id="_eaqDoG5dEeWfeYV4R3a_Iw" addition="_hnAr4G5SEeW_JseOqq100w"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_hnAr4G5SEeW_JseOqq100w" name="s'identifier">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hnAr4G5SEeW_JseOqq100w" name="Vérifier l'identification">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_h-L8IG5aEeWfeYV4R3a_Iw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_WFyU0HldEeWLhNZKLo9r-w" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SLXtsHldEeWLhNZKLo9r-w" name="S'identifier">
+      <extend xmi:type="uml:Extend" xmi:id="_WFxtwHldEeWLhNZKLo9r-w" extendedCase="_hnAr4G5SEeW_JseOqq100w" extensionLocation="_WFyU0HldEeWLhNZKLo9r-w"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_2ksHEG5PEeW_JseOqq100w" name="Chargé de séance">
