@@ -1,0 +1,103 @@
+Nom :               Acheter des crédits
+But:                Ce cas permet de connaître la procédure afin de pouvoir acheter des crédits
+Acteur principal :  Utilisateur
+Pré-condition:      L'utilisateur doit déjà être connecté
+Déclenchement:      L'utilisateur décide d'acheter des crédits
+Séquence nominale:  
+    1. L'utilisateur est sur le site en mode connecté
+    2. L'utilisateur clique sur le lien d'achat de crédits
+    3. Le système construit la page d'achat de crédits
+    4. La page d'achat de crédits apparait
+    5. L'utilisateur choisit d'acheter 10 crédits
+    6. L'utilisateur rentre les informations liés à sa carte de crédits
+    7. L'utilisateur clique sur le bouton valider
+    8. L'utilisateur a obtenu ses crédits
+    9. Fin du cas d'utilisation
+    
+Post-condition:     L'utilisateur a obtenu le nombre de crédits qu'il a acheté
+
+Scénario alternatif:
+    5.a [100 crédits]
+        5.a.1 L'utilisateur décide d'acheter 100 crédits
+    
+    5.b [1.000 crédits]
+        5.b.1 L'utilisateur décide d'acheter 1.000 crédits
+    
+    7.a [Informations de la carte de crédits eronnée]
+        7.a.1 Un message apparait indiquant que les informations de la carte de crédits sont eronnés
+        7.a.2 Retour à 6
+        
+    7.b [Carte de crédits plus valide]
+        7.b.1 Un message apparait indiquant que la carte de crédits n'est plus valide
+        7.b.2 Retour à 6
+        
+    7.c [L'utilisateur annule sa commande]
+        7.c.1 Fin du cas d'utilisation
+
+-----------------------------------------------------------------------------------------------------------------
+
+Nom :               Se connecter
+But:                Ce cas permet de connaître la procédure pour se connecter au site
+Acteur principal :  Utilisateur
+Pré-condition:      Etre déjà enregistrer sur le site et ne pas être connecté
+Déclenchement:      L'utilisateur décide de se connecter
+Séquence nominale:  
+    1. L'utilisateur est sur le site en mode déconnecté
+    2. L'utilisateur clique sur le bouton de connexion
+    3. Construction de la page de connexion par le système
+    4. La page de connexion apparait
+    5. L'utilisateur rentre son mot de passe et son login
+    6. L'utilisateur clique sur le bouton pour valider
+    7. Le système reconnait l'utilisateur et le connecte
+    8. Fin du cas d'utilisation
+    
+Post-condition:     L'utilisateur est connecté
+
+Scénario alternatif:
+    6.a [L'utilisateur annule sa connexion]
+        6.a.1 Fin du cas d'utilisation
+        
+    6.b [Mauvais login]
+        6.b.1 Un message apparait indiquant que le login n'existe pas
+        6.b.2 Retour à 5
+    
+    6.c [Mauvais mot de passe]
+        6.c.1 Un messaga apparait indiquant que le mot de passe n'est pas bon
+    
+Scénario d'exception:
+    6.a [Trois fois un mauvais mot de passe]
+        6.a.1 Le système construit la page pour réinitialiser un mot de passe
+        6.a.2 La page de réinitialisation de mot de passe apparait
+
+---------------------------------------------------------------------------------------------------------------
+
+Nom :               S'inscrire
+But:                Ce cas permet de savoir comment doit faire un utilisateur pour s'inscrire
+Acteur principal :  Utilisateur
+Pré-condition:      L'utilisateur doit être en mode déconnecté
+Déclenchement:      L'utilisateur décide de s'inscrire
+Séquence nominale:  
+    1. L'utilisateur est sur le site en mode connecté
+    2. L'utilisateur clique sur le bouton d'inscription
+    3. Le système construit la page d'inscription
+    4. La page d'inscription apparait
+    5. L'utilisateur renseigne les champs obligatoires
+    6. L'utilisateur valide l'inscription
+    7. Le système crée le nouvel utilisateur et le connecte
+    8. Fin du cas d'utilisation
+    
+Post-condition:     L'utilisateur a son compte de créer
+
+Scénario alternatif:
+    5.a [L'utilisateur renseigne un parain]
+        5.a.1 L'utilisateur remplit le champ parain
+        5.a.2 Retour à 6
+
+    6.a [Login existe déjà]
+        6.a.1 Un message apparait indiquant que le login saisi existe déjà
+        6.a.2 Retour à 5
+    
+    6.b [champ(s) invalide(s)]
+        6.b.1 Les champs invalides sont surlignés en rouge avec un message si une explication est nécessaire
+        6.b.2 Retour à 5
+    
