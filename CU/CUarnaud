@@ -13,13 +13,11 @@ Séquence nominale :
   7. Le système demande confirmation
   8. L'utilisateur confirme
   9. Le système confirme que le paiement a été effectué
-  10. L'utilisateur est redirigé vers la liste des donateurs
-Post--conditions :
-  9.a) [La donation est inférieure au seuil fixé]
-     1) L'entreprise est ajoutée à la liste des donateurs
-  9.b) [La donation est supérieure au seuil fixé]
-     1) L'entreprise est ajoutée à la liste des donateurs
-     2) L'entreprise est ajoutée à la section « Sponsors » de la page d'accueil
+  10. Le système ajoute l'Entreprise à la liste des donateurs
+  11. Le système ajoute l'Entreprise à la section « Sponsors » de la page d'accueil
+  12. L'utilisateur est redirigé vers la liste des donateurs
+  13. Fin du cas d'utilisation
+Post-conditions : L'utilisateur
 Scénarios alternatifs :
   3.a) [La validation des champs échoue]
     1. Le système retourne à l'étape 1 avec les champs invalides signalés
@@ -27,9 +25,10 @@ Scénarios alternatifs :
     1. Le système retourne à l'étape 4 avec les champs invalides signalés
   8.a) [L'utilisateur annule sa saisie]
     1. Le système retourne à l'étape 4
+Scénarios d'exception :
   9.a) [Le paiement n'a pas été effectué]
-    1. Le système affiche un message d'erreur
-    2. La donation est annulée
+    1. Le système affiche  « Le paiement a échoué » 
+    2. Fin du cas d'utilisation
 
 Nom : Voter pour une idée
 But : Voter pour une idée dans la Boîte à Idées
@@ -41,7 +40,8 @@ Séquence nominale :
   2. Le système incrémente le compteur de votes de l'idée et rafraichit son affichage
   3. Le système grise et rend inactif le bouton « + »  relatif à l'idée
   4. Le classement des idées est recalculé en fonction du nombre de votes
-Post--conditions : L'utilisateur a exprimé son avis sur une idée
+  5. Fin du cas d'utilisation
+Post-conditions : L'utilisateur a exprimé son avis sur une idée
 
 Nom : Regarder un flux vidéo
 But : Permet de regarder une séance en direct ou en différé à partir de l'application
@@ -53,11 +53,14 @@ Séquence nominale :
   2. L'utilisateur choisit la vidéo en direct de son choix
   3. Le système redirige l'utilisateur sur une page contenant la vidéo en question
   4. Le système lance la lecture du flux vidéo
-Post--conditions : L'utilisateur regarde la séance en direct
+  5. Fin du cas d'utilisation
+Post-conditions : L'utilisateur regarde la séance en direct
 Scénarios alternatifs :
   1.a) [Aucun flux vidéo n'est disponible]
     1. Le système affiche « Aucun flux vidéo disponible »
     2. Fin du cas d'utilisation
+Scénarios d'exception :
   4.a) [Erreur lors de la lecture du flux vidéo]
     1. Le système affiche « Erreur lors de la lecture du flux vidéo »
-    2. Le système propose de recharger la page ou de signaler le problème
+    2. Fin du cas d'utilisation
+    
