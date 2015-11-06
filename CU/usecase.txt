@@ -8,7 +8,7 @@ Séquence nominale:
     2. L'utilisateur clique sur le lien d'achat de crédits
     3. Le système construit la page d'achat de crédits
     4. La page d'achat de crédits apparait
-    5. L'utilisateur choisit d'acheter 10 crédits
+    5. L'utilisateur choisit le nombre de crédits qu'il veut acheter
     6. L'utilisateur rentre les informations liés à sa carte de crédits
     7. L'utilisateur clique sur le bouton valider
     8. L'utilisateur a obtenu ses crédits
@@ -17,12 +17,6 @@ Séquence nominale:
 Post-condition:     L'utilisateur a obtenu le nombre de crédits qu'il a acheté
 
 Scénario alternatif:
-    5.a [100 crédits]
-        5.a.1 L'utilisateur décide d'acheter 100 crédits
-    
-    5.b [1.000 crédits]
-        5.b.1 L'utilisateur décide d'acheter 1.000 crédits
-    
     7.a [Informations de la carte de crédits eronnée]
         7.a.1 Un message apparait indiquant que les informations de la carte de crédits sont eronnés
         7.a.2 Retour à 6
@@ -62,12 +56,14 @@ Scénario alternatif:
         6.b.2 Retour à 5
     
     6.c [Mauvais mot de passe]
-        6.c.1 Un messaga apparait indiquant que le mot de passe n'est pas bon
+        6.c.1 Un message apparait indiquant que le mot de passe n'est pas bon
+	6.c.2 Retour à 5
     
 Scénario d'exception:
     6.a [Trois fois un mauvais mot de passe]
         6.a.1 Le système construit la page pour réinitialiser un mot de passe
         6.a.2 La page de réinitialisation de mot de passe apparait
+	6.a.3 Fin du cas d'utilisation
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -81,23 +77,23 @@ Séquence nominale:
     2. L'utilisateur clique sur le bouton d'inscription
     3. Le système construit la page d'inscription
     4. La page d'inscription apparait
-    5. L'utilisateur renseigne les champs obligatoires
-    6. L'utilisateur valide l'inscription
+    5. L'utilisateur renseigne les champs obligatoires et valide l'inscription
+    6. Le système vérifie la validité des champs
     7. Le système crée le nouvel utilisateur et le connecte
     8. Fin du cas d'utilisation
     
-Post-condition:     L'utilisateur a son compte de créer
+Post-condition:     L'utilisateur a son compte de créé
 
 Scénario alternatif:
-    5.a [L'utilisateur renseigne un parain]
-        5.a.1 L'utilisateur remplit le champ parain
-        5.a.2 Retour à 6
+    6.a [Les champs sont corrects et l'utilisateur a renseigné un parrain]
+    	6.a.1 Un mail est envoyé au parrain en question
+	6.a.2 Avance en 7
 
-    6.a [Login existe déjà]
-        6.a.1 Un message apparait indiquant que le login saisi existe déjà
-        6.a.2 Retour à 5
-    
-    6.b [champ(s) invalide(s)]
-        6.b.1 Les champs invalides sont surlignés en rouge avec un message si une explication est nécessaire
+    6.b [Login existe déjà]
+        6.b.1 Un message apparait indiquant que le login saisi existe déjà
         6.b.2 Retour à 5
+    
+    6.c [Champ(s) invalide(s)]
+        6.c.1 Les champs invalides sont surlignés en rouge avec un message si une explication est nécessaire
+        6.c.2 Retour à 5
     
