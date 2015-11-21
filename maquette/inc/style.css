@@ -1,0 +1,13 @@
+
+body {
+    margin:0
+}
+
+header {
+    background-color:beige;
+    text-align: center;
+}
+
+header #connection {
+    text-align: right;
+}
