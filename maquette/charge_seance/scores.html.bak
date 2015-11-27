@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <link type="text/css" rel="stylesheet" href="../inc/style.css"/>
+    <title>PBA Club - Classement</title>
+  </head>
+  <body>
+
+    <header>
+      <!-- NAVBAR -->
+      <nav>
+	<img src="inc/logo.png" alt="logo"/>
+      <a href="index.html">PBA Club</a>
+	<a href="planning.html">Planning</a>
+	<a href="classement.html">Classement</a>
+	<a href="idees.html">Boîte à Idées</a>
+	<a href="broadcasting.html">Vidéos</a>
+	<a href="donate.html">Donations/Sponsoring</a>
+	<a href="thanks.html">Remerciements</a>
+	<a href="connection.html">Connexion</a>
+      </nav>    
+      
+      <nav id="nav_session">
+	<h3>Voir cette page en tant que :</h3>
+	<a href="../scores.html">Invité</a>
+	<a href="../client/scores.html">Client</a>
+	Chargé de Séance
+      </nav>
+
+    </header>
+    
+    <h1>Classement</h1>
+
+    <nav id="nav_classement">
+      <h2><a href="classement.html">Général</a></h2>
+      <h2>Mes Scores</h2>
+    </nav>
+    
+  </body>
+</html>

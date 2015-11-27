@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <link type="text/css" rel="stylesheet" href="../inc/style.css"/>
+    <title>PBA Club - Planning</title>
+  </head>
+  <body>
+
+    <header>
+      <!-- NAVBAR -->
+      <nav>
+	<img src="inc/logo.png" alt="logo"/>
+      <a href="index.html">PBA Club</a>
+	<a href="planning.html">Planning</a>
+	<a href="classement.html">Classement</a>
+	<a href="idees.html">Boîte à Idées</a>
+	<a href="broadcasting.html">Vidéos</a>
+	<a href="donate.html">Donations/Sponsoring</a>
+	<a href="thanks.html">Remerciements</a>
+	<a href="connection.html">Connexion</a>
+      </nav> 
+      
+      <nav id="nav_session">
+	<h3>Voir cette page en tant que :</h3>
+	<a href="../planning.html">Invité</a>
+	Client
+	<a href="../charge_seance/planning.html">Chargé de Séance</a>
+      </nav>
+   
+    </header>
+    
+    <div>
+      <h1>Planning</h1>
+      
+    </div>
+
+  </body>
+</html>
