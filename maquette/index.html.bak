@@ -9,17 +9,20 @@
 
     <header>
       <!-- NAVBAR -->
+      <a id="bandeau" href="index.html">
+        <img src="inc/logo.png" alt="logo"/>
+        <h1>PBA Club</h1>
+      </a>
       <nav>
-	<a href="index.html">PBA Club</a>
-	<a href="planning.html">Planning</a>
-	<a href="classement.html">Classement</a>
-	<a href="idees.html">Boîte à Idées</a>
-	<a href="broadcasting.html">Vidéos</a>
-	<a href="donate.html">Donations/Sponsoring</a>
-	<a href="thanks.html">Remerciements</a>
-	<a href="connection.html">Connexion</a>
+        <a href="planning.html">Planning</a>
+      	<a href="classement.html">Classement</a>
+      	<a href="idees.html">Boîte à Idées</a>
+      	<a href="broadcasting.html">Vidéos</a>
+      	<a href="donate.html">Donations/Sponsoring</a>
+      	<a href="thanks.html">Remerciements</a>
+      	<a href="connection.html">Connexion</a>
       </nav>
-      
+
       <nav id="nav_session">
 	<h3>Voir cette page en tant que :</h3>
 	Invité
@@ -31,7 +34,7 @@
 
 
     <h1>Actualités</h1>
-    
+
     <article class="actualite">
       <p>Actu 1</p>
     </article>
@@ -51,7 +54,7 @@
     <article class="important">
       <p>Important</p>
     </article>
-    
+
     <aside>
       <h2>Entreprises</h2>
     </aside>

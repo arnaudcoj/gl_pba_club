@@ -1,13 +1,34 @@
 
 body {
-    margin:0
+    margin:0;
+    margin-top:180px;
+
 }
 
 header {
-    background-color:beige;
+    background-color:#3E5E6F;
     text-align: center;
+    position:fixed;
+    width:100%;
+    top:0;
 }
 
-header #connection {
-    text-align: right;
+header #navbar a {
+    font-family: Sans-serif;
+    color: white;
+}
+
+header #nav_session {
+    text-align: center;
+    background-color:orange;
+    padding-bottom:5px;
+}
+
+
+h1 {
+    font-family: Sans-serif;
+}
+
+h2 {
+    font-family: Sans-serif;    
 }

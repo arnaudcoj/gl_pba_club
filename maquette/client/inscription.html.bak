@@ -10,7 +10,7 @@
     <header>
       <!-- NAVBAR -->
       <nav>
-	<img src="inc/logo.png" alt="logo"/>
+	<img src="../inc/logo.png" alt="logo"/>
       <a href="index.html">PBA Club</a>
 	<a href="planning.html">Planning</a>
 	<a href="classement.html">Classement</a>
