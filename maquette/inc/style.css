@@ -57,7 +57,10 @@ header nav {
     background-color:orange;
     padding-bottom:5px;   
     box-shadow:0px 2px 7px black;
+}
 
+header nav ul {
+    padding:0;
 }
 
 header nav a {
@@ -100,6 +103,8 @@ article {
     text-align: center;
     background-color: white;
     box-shadow:5px 5px 5px #3E5E6F;    
+    padding: 5px;
+    margin-bottom: 15px;
 }
 
 #planning {
@@ -139,6 +144,10 @@ article {
 
 #planning a {
     color: darkblue;
+}
+
+#planning a:hover {
+    color: crimson;
 }
 
 #planning table tr .day {
