@@ -18,14 +18,14 @@ h1 {
     text-align: center;
     font-family: Sans-serif;
     color: #3E5E6F;
-    text-shadow: 2px 3px 2px darkgray;    
+    text-shadow: 2px 3px 2px darkgray;
 }
 
 h2 {
     text-align: center;
     font-family: Sans-serif;
     color: #3E5E6F;
-    text-shadow: 0px 0px 2px darkgray;     
+    text-shadow: 0px 0px 2px darkgray;
 }
 
 h2 a {
@@ -36,13 +36,26 @@ h2 a {
 
 h2 a:hover {
     text-shadow: 0px 0px 2px orange;
-    color: #1A394A;    
+    color: #1A394A;
     text-decoration: none;
 }
 
 h3 {
     text-align: center;
-    font-family: Sans-serif;    
+    font-family: Sans-serif;
+    color: #3E5E6F;
+}
+
+h3 a {
+    text-shadow: 2px 2px 2px darkgray;
+    color: #1A394A;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    text-shadow: 0px 0px 2px orange;
+    color: #1A394A;
+    text-decoration: none;
 }
 
 header {
@@ -50,24 +63,28 @@ header {
     text-align: center;
     width:100%;
     top:0;
- 
+
 }
 
 header nav {
     text-align: center;
     background-color:orange;
-    padding-bottom:5px;   
+    padding-bottom:5px;
     box-shadow:0px 2px 7px black;
 }
 
 header #nav_session {
-box-shadow:0px 0px 5px 0px black;    
+box-shadow:0px 0px 5px 0px black;
+}
+
+header nav ul {
+    padding:0;
 }
 
 header nav a {
     font-family: Sans-serif;
     color: darkblue;
-    text-decoration:none; 
+    text-decoration:none;
 }
 
 header nav a:hover {
@@ -103,72 +120,81 @@ article {
     min-height:100px;
     text-align: center;
     background-color: white;
-    box-shadow:5px 5px 5px #3E5E6F;    
+    box-shadow:5px 5px 5px #3E5E6F;
+    padding: 5px;
+    margin-bottom: 15px;
 }
 
-#planning {
+div {
     margin: auto;
     width: 75%;
     min-width: 650px;
     text-align: center;
     background-color: white;
-    box-shadow:5px 5px 5px #3E5E6F;    
+    box-shadow:5px 5px 5px #3E5E6F;
     background-color: orange;
     margin-bottom:30px;
 }
 
-#planning h1 {
+div h1 {
     color:black;
     text-shadow: none;
 }
 
-#planning h2 {
+div h2 {
     color:black;
     text-shadow: none;
 }
 
-#planning table {
+div table {
     width:100%;
     background-color: white;
 }
 
-#planning table tr {
+div table tr {
     height: 40px;
 }
 
-#planning table tr td {
+div table tr td {
     min-width: 100px;
     background-color: lightgray;
 }
 
-#planning a {
+div a {
     color: darkblue;
 }
 
-#planning table tr .day {
+div a:hover {
+    color: crimson;
+}
+
+div table tr .day {
     min-width: 80px;
     background-color: lightsteelblue;
 }
 
-#planning table tr .event {
+div table tr .event {
     background-color: lightcoral;
 }
 
-#planning table tr .new_session {
+div table tr .new_session {
     background-color: lightgreen;
 }
 
 #sponsors {
     margin: auto;
-    width: 100%;
-    background-color: white;
-    box-shadow:0px 4px 5px #3E5E6F;
+    width: 40%;
+    min-width: 650px;
+    text-align: center;
+    background-color: unset;
+    margin-bottom:30px;
+    box-shadow: unset; 
 }
 
 #sponsors ul {
     padding: 0;
     padding-bottom: 10px;
-    text-align: center;
+    text-align: left;
     list-style: none;
 }
 
