@@ -273,6 +273,12 @@ div table tr .new_session {
     background-color: white;
 }
 
+.rediff_player .commentaires textarea {
+    overflow-y: scroll;
+    width:90%;
+    height:100px;
+}
+
 .live_player h2 {
     padding-top: 15px;
 }
