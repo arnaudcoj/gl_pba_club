@@ -265,8 +265,22 @@ div table tr .new_session {
     padding-bottom: 5px;
 }
 
+.rediff_player h2 {
+    padding-top: 15px;
+}
+
 .rediff_player .commentaires {
     background-color: white;
+}
+
+.live_player h2 {
+    padding-top: 15px;
+}
+
+.live_player ul {
+    background-color: white;
+    overflow-y:scroll;
+    height:200px;
 }
 
 article h3 {
