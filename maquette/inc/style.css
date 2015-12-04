@@ -19,6 +19,7 @@ ul {
 }
 
 li {
+    font-family: Sans-serif;
     list-style: none;
 }
 
@@ -136,7 +137,6 @@ article {
 div {
     margin: auto;
     width: 75%;
-    min-width: 650px;
     text-align: center;
     background-color: white;
     box-shadow:5px 5px 5px #3E5E6F;
@@ -211,23 +211,29 @@ div table tr .new_session {
 }
 
 #sponsors {
-    width:100px;
+    min-width:350px;
     margin: auto;
-    background-color: unset;
-    margin-bottom:30px;
-    box-shadow: unset; 
+    padding:10px; 
+    margin-bottom:30px; 
 }
 
-#sponsors ul {
-    padding: 0;
-    padding-bottom: 10px;
-    text-align: right;
+#sponsors table {
+    padding: 5px;
+    text-align: center;
     list-style: none;
+}
+
+#sponsors table tr td img {
+    height: 100px;
 }
 
 #sponsors h1 {
     color: #3E5E6F;
     text-shadow: 2px 3px 2px darkgray;
+}
+
+#planning {
+    min-width: 700px;
 }
 
 .scores_head td {
@@ -286,7 +292,12 @@ div table tr .new_session {
 }
 
 .rediff_player {
+    min-width: 300px;
     padding-bottom: 5px;
+}
+
+.rediff_player video {
+    width:90%;
 }
 
 .rediff_player h2 {
@@ -295,6 +306,7 @@ div table tr .new_session {
 
 .rediff_player .commentaires {
     background-color: white;
+    padding-bottom:5px;
 }
 
 .rediff_player .commentaires textarea {
@@ -303,20 +315,35 @@ div table tr .new_session {
     height:100px;
 }
 
+.rediff_player .commentaires ul {
+    padding-top:5px;
+    background-color: lightgray;
+}
+
+.live_player {
+    min-width: 300px;
+    padding-bottom: 5px;
+}
+
+.live_player video {
+    width:90%;
+}
+
 .live_player h2 {
     padding-top: 15px;
 }
 
-.live_player ul {
+.live_player .chat {
     background-color: white;
+    padding-bottom:5px;
+}
+
+.live_player .chat ul {
+    background-color: lightgray;
     overflow-y:scroll;
     height:200px;
 }
 
-.chat {
-    box-shadow: unset;
-    padding-bottom:5px;
-}
 
 ul li img {
     height:100px;

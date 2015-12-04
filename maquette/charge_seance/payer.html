@@ -3,7 +3,7 @@
 <head>
   <meta charset=utf-8 />
   <link type="text/css" rel="stylesheet" href="../inc/style.css"/>
-  <title>PBA Club - Éditer une séance</title>
+  <title>PBA Club - Paiement</title>
 </head>
 <body>
 
@@ -14,7 +14,7 @@
 
     <!-- NAVBAR -->
     <nav id="navbar">
-      <ul>        
+      <ul>
         <li><a href="index.html">Accueil</a></li>
         <li><a href="planning.html">Planning</a></li>
         <li><a href="classement.html">Classement</a></li>
@@ -22,32 +22,40 @@
         <li><a href="rediff_list.html">Vidéos</a></li>
         <li><a href="donate.html">Donations/Sponsoring</a></li>
         <li><a href="thanks.html">Remerciements</a></li>
-        <li><a href="deconnection.html">Déconnexion</a></li>
+        <li><a href="connection.html">Connexion</a></li>
       </ul>
     </nav>
 
     <nav id="nav_session">
       <h3>Voir cette page en tant que :</h3>
       <ul>
-        <li>Invité</li>
-        <li>Client</li>
+        <li><a href="../payer.html">Invité</a></li>
+        <li><a href="../client/payer.html">Client</a></li>
         <li>Chargé de Séance</li>
       </ul>
-    </nav>
+      </nav>
 
-  </header>
+    </header>
 
-  <h1>Éditer une séance</h1>
+    <h1>Donations : Particulier</h1>
 
-  <form action="planning.html">
-    <p>Chargés de séance<p>
-      <fieldset><input placeholder="Émilie, Alexandre"/></fieldset>
-      Fermer les inscriptions <input type="checkbox"/></br>
+    <form action="paiement_accepte.html">
+      <h2>Paiement</h2>
+      <p>Numéro de Carte Bleue</p>
+      <fieldset><input></input></fieldset>
+      <p>Propriétaire de la carte</p>
+      <fieldset><input></input></fieldset>
+      <p>Date d'expiration</p>
+      <fieldset><input></input></fieldset>
+      <p>Numéro de sécurité (au verso de la carte)</p>
+      <fieldset><input></input></fieldset>
     </form>
+
     <div class="buttons">
-      <a href="planning.html"><button>Valider</button></a>
-      <a href="planning.html"><button>Supprimer la séance</button></a>
+      <a href="paiement_accepte.html"><button>Valider</button></a>
+      <a href="donate.html"><button>Annuler</button></a>
     </div>
+
     <footer>
       <p>GL 2015</p>
     </footer>

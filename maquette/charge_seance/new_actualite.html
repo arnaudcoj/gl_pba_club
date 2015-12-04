@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset=utf-8 />
-  <link type="text/css" rel="stylesheet" href="inc/style.css"/>
-  <title>PBA Club - S'inscrire</title>
+  <link type="text/css" rel="stylesheet" href="../inc/style.css"/>
+  <title>PBA Club - Poster un article</title>
 </head>
 <body>
 
@@ -22,7 +22,7 @@
         <li><a href="rediff_list.html">Vidéos</a></li>
         <li><a href="donate.html">Donations/Sponsoring</a></li>
         <li><a href="thanks.html">Remerciements</a></li>
-        <li><a href="connection.html">Connexion</a></li>
+        <li><a href="deconnection.html">Déconnexion</a></li>
       </ul>
     </nav>
 
@@ -37,40 +37,38 @@
 
   </header>
 
-  <h1>Inscription</h1>
+  <h1>Poster un article</h1>
 
-  <form action="connection.html">
-    <p>Nom</p>
-    <fieldset>
-      <input>
-    </input>
-  </fieldset>
-  <p>Prénom</p>
-  <fieldset>
-    <input>
-  </input>
-</fieldset>
-<p>Pseudo</p>
-<fieldset>
-  <input>
-</input>
-</fieldset>
-<p>Adresse mail</p>
-<fieldset>
-  <input>
-</input>
-</fieldset>
-<p>Parrain/Marraine</p>
-<fieldset>
-  <input>
-</input>
-</fieldset>
-
-<button>Valider l'inscription</button>
-</form>
-
-<footer>
-  <p>GL 2015</p>
-</footer>
+  <form>
+    <p>Type</p>
+    <select>
+      <option>
+        Actualité
+      </option>
+      <option>
+        Nouvelle Séance
+      </option>
+      <option>
+        Nouveau Record
+      </option>
+      <option>
+        Évènement à venir
+      </option>
+      <option>
+        Important
+      </option>
+    </select>
+    <p>Titre</p>
+    <fieldset><input/></fieldset>
+    <p>Description</p>
+    <fieldset><textarea></textarea></fieldset>
+  </form>
+  <div class="buttons">
+    <a href="index.html"><button>Valider</button></a>
+    <a href="index.html"><button>Annuler</button></a>
+  </div>
+  <footer>
+    <p>GL 2015</p>
+  </footer>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
   <meta charset=utf-8 />
   <link type="text/css" rel="stylesheet" href="../inc/style.css"/>
-  <title>PBA Club - Remerciements</title>
+  <title>PBA Club - Paiement</title>
 </head>
 <body>
 
@@ -22,45 +22,39 @@
         <li><a href="rediff_list.html">Vidéos</a></li>
         <li><a href="donate.html">Donations/Sponsoring</a></li>
         <li><a href="thanks.html">Remerciements</a></li>
-        <li><a href="deconnection.html">Déconnexion</a></li>
+        <li><a href="connection.html">Connexion</a></li>
       </ul>
     </nav>
 
     <nav id="nav_session">
       <h3>Voir cette page en tant que :</h3>
       <ul>
-        <li><a href="../thanks.html">Invité</a></li>
+        <li><a href="../payer.html">Invité</a></li>
         <li>Client</li>
-        <li><a href="../charge_seance/thanks.html">Chargé de Séance</a></li>
+        <li><a href="../charge_seance/payer.html">Chargé de Séance</a></li>
       </ul>
     </nav>
 
   </header>
 
-  <h1>Remerciements</h1>
+  <h1>Donations : Particulier</h1>
 
-  <article>
-    <h2>Entreprises</h2>
-    <ul>
-      <li>VerRe</li>
-      <li>AIRNI</li>
-      <li>Université Lille 1</li>
-      <li>Chocolicornes</li>
-      <li>DreamBox</li>
-      <li>JSI Informatique</li>
-    </ul>
-  </article>
+  <form action="paiement_accepte.html">
+    <h2>Paiement</h2>
+    <p>Numéro de Carte Bleue</p>
+    <fieldset><input></input></fieldset>
+    <p>Propriétaire de la carte</p>
+    <fieldset><input></input></fieldset>
+    <p>Date d'expiration</p>
+    <fieldset><input></input></fieldset>
+    <p>Numéro de sécurité (au verso de la carte)</p>
+    <fieldset><input></input></fieldset>
+  </form>
 
-  <article>
-    <h2>Donateurs particuliers</h2>
-    <ul>
-      <li>Stéphane</li>
-      <li>Henry</li>
-      <li>Philippe</li>
-      <li>Jean-Luc</li>
-      <li>Bertrand</li>
-    </ul>
-  </article>
+  <div class="buttons">
+    <a href="paiement_accepte.html"><button>Valider</button></a>
+    <a href="donate.html"><button>Annuler</button></a>
+  </div>
 
   <footer>
     <p>GL 2015</p>
