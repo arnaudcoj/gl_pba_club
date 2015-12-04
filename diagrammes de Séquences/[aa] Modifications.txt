@@ -1,0 +1,52 @@
+Scénario : Acheter des crédits
+
+1.	L’utilisateur clique sur le lien d’achat de crédits
+2.	Le système construit la page d’achat de crédits
+3.	Le système affiche la page d’achat de crédits
+4.	L’utilisateur choisit le nombre de crédits qu’il veut acheter
+5.	L’utilisateur rentre les informations liées à sa carte de crédits et valide
+6.  Le système valide les informations
+7.	L’utilisateur a obtenu ses crédits
+8.	Fin du cas d’utilisation
+
+5.a [L’utilisateur annule sa commande]
+	5.a.1 Fin du cas d’utilisation
+6.a [Informations de la carte de crédits erronée]
+	6.a.1 Un message apparaît indiquant que les informations de la carte de crédits sont erronés
+	6.a.2 Retour à 5
+6.b [Carte de crédits plus valide]
+	6.b.1 Un message apparaît indiquant que la carte de crédits n’est plus valide
+	6.b.2 Retour à 5
+
+Scénario : Se connecter
+
+1.	L’utilisateur clique sur le bouton de connexion
+2.	Le système construit la page de connexion
+3.	Le système affiche la page de connexion
+4.	L’utilisateur rentre son mot de passe et son login
+5.	Le système reconnaît l’utilisateur
+6.  Le système connecte l'utilisateur
+7.	Fin du cas d’utilisation
+
+Scénario : S'inscrire
+
+1.	L’utilisateur clique sur le bouton d’inscription
+2.	Le système construit la page d’inscription
+3.	Le système affiche la page d’inscription
+4.	L’utilisateur renseigne les champs obligatoires
+5.	Le système vérifie la validité des champs
+6.	Le système envoie un mail au parrain renseigné
+7.	Le système crée le nouvel utilisateur
+8.  Le système connecte l'utilisateur
+9.	Fin du cas d’utilisation
+
+5.a [Les champs sont corrects mais le champ parrain est vide]
+	5.a.1 Le système valide les champs
+    5.a.2 Avance en 7
+5.b [Login existe déjà]
+	5.b.1 Un message apparaît indiquant que le login saisi existe déjà
+	5.b.2 Retour à 5
+5.c [Champ(s) invalide(s)]
+	5.c.1 Les champs invalides sont surlignés en rouge avec un message si une explication est nécessaire
+	5.c.2 Retour à 5
+
