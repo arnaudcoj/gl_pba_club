@@ -144,6 +144,27 @@ div {
     margin-bottom:30px;
 }
 
+form {
+    margin:auto;
+    width:50%;
+    text-align:center;
+}
+
+form fieldset input {
+    width:100%;
+}
+
+form fieldset textarea{
+    width:100%;
+}
+
+.buttons {
+    width:50%;
+    margin:auto;
+    background-color: unset;
+    box-shadow:unset;
+}
+
 div h1 {
     color:black;
     text-shadow: none;
@@ -160,11 +181,11 @@ div table {
 }
 
 div table tr {
-    height: 40px;
+    height: 60px;
 }
 
 div table tr td {
-    min-width: 100px;
+    min-width: 110px;
     background-color: lightgray;
 }
 
@@ -190,10 +211,8 @@ div table tr .new_session {
 }
 
 #sponsors {
+    width:100px;
     margin: auto;
-    width: 40%;
-    min-width: 650px;
-    text-align: center;
     background-color: unset;
     margin-bottom:30px;
     box-shadow: unset; 
@@ -202,7 +221,7 @@ div table tr .new_session {
 #sponsors ul {
     padding: 0;
     padding-bottom: 10px;
-    text-align: left;
+    text-align: right;
     list-style: none;
 }
 
@@ -241,6 +260,11 @@ div table tr .new_session {
 #idees_nav ul li a:hover {
     text-shadow: 0px 0px 2px orange;
     color: #1A394A;
+}
+
+.centered {
+    text-align: center;
+    margin:auto;
 }
 
 .idee small {
@@ -289,12 +313,22 @@ div table tr .new_session {
     height:200px;
 }
 
+.chat {
+    box-shadow: unset;
+    padding-bottom:5px;
+}
+
+ul li img {
+    height:100px;
+}
+
 article h3 {
     margin-top: 0;    
 }
 
 button {
     margin-top:10px;
+    margin-bottom:10px;
 }
 
 footer {
