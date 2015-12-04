@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_CLPp0JmaEeW6E_o-F-G3BQ" name="RootElement">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_CLRfAJmaEeW6E_o-F-G3BQ" name="Consulter ses scores">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_IC4yoJmaEeW6E_o-F-G3BQ" name="Client" coveredBy="_K-qAMpmaEeW6E_o-F-G3BQ _K-qAMZmaEeW6E_o-F-G3BQ _Pfcq0JmaEeW6E_o-F-G3BQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_JiRhwJmaEeW6E_o-F-G3BQ" name="Système" coveredBy="_LhfngZmaEeW6E_o-F-G3BQ _LhfngJmaEeW6E_o-F-G3BQ _Pfcq0ZmaEeW6E_o-F-G3BQ _Ug810JmaEeW6E_o-F-G3BQ _Ug9c4JmaEeW6E_o-F-G3BQ _XNWKoJmaEeW6E_o-F-G3BQ _XNWxsJmaEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Pfcq0JmaEeW6E_o-F-G3BQ" name="MessageSend" covered="_IC4yoJmaEeW6E_o-F-G3BQ" message="_PfbcsJmaEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_K-qAMZmaEeW6E_o-F-G3BQ" name="ActionExecSpec" covered="_IC4yoJmaEeW6E_o-F-G3BQ" finish="_K-qAMpmaEeW6E_o-F-G3BQ" start="_Pfcq0JmaEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_LhfngJmaEeW6E_o-F-G3BQ" name="ActionExecSpec0" covered="_JiRhwJmaEeW6E_o-F-G3BQ" finish="_LhfngZmaEeW6E_o-F-G3BQ" start="_Pfcq0ZmaEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Pfcq0ZmaEeW6E_o-F-G3BQ" name="MessageRecv" covered="_JiRhwJmaEeW6E_o-F-G3BQ" message="_PfbcsJmaEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Ug810JmaEeW6E_o-F-G3BQ" name="MessageSend0" covered="_JiRhwJmaEeW6E_o-F-G3BQ" message="_Ug7nsJmaEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Ug9c4JmaEeW6E_o-F-G3BQ" name="MessageRecv0" covered="_JiRhwJmaEeW6E_o-F-G3BQ" message="_Ug7nsJmaEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XNWKoJmaEeW6E_o-F-G3BQ" name="MessageSend1" covered="_JiRhwJmaEeW6E_o-F-G3BQ" message="_XNVjkJmaEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XNWxsJmaEeW6E_o-F-G3BQ" name="MessageRecv1" covered="_JiRhwJmaEeW6E_o-F-G3BQ" message="_XNVjkJmaEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_LhfngZmaEeW6E_o-F-G3BQ" name="ActionExecSpec0Finish" covered="_JiRhwJmaEeW6E_o-F-G3BQ" execution="_LhfngJmaEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_K-qAMpmaEeW6E_o-F-G3BQ" name="ActionExecSpecFinish" covered="_IC4yoJmaEeW6E_o-F-G3BQ" execution="_K-qAMZmaEeW6E_o-F-G3BQ"/>
+    <message xmi:type="uml:Message" xmi:id="_PfbcsJmaEeW6E_o-F-G3BQ" name="1: va dans la rubrique 'scores'" receiveEvent="_Pfcq0ZmaEeW6E_o-F-G3BQ" sendEvent="_Pfcq0JmaEeW6E_o-F-G3BQ"/>
+    <message xmi:type="uml:Message" xmi:id="_Ug7nsJmaEeW6E_o-F-G3BQ" name="2 : Construit la liste des scores du client" messageSort="asynchCall" receiveEvent="_Ug9c4JmaEeW6E_o-F-G3BQ" sendEvent="_Ug810JmaEeW6E_o-F-G3BQ"/>
+    <message xmi:type="uml:Message" xmi:id="_XNVjkJmaEeW6E_o-F-G3BQ" name="3 : Affiche la liste des scores du client" messageSort="asynchCall" receiveEvent="_XNWxsJmaEeW6E_o-F-G3BQ" sendEvent="_XNWKoJmaEeW6E_o-F-G3BQ"/>
+  </packagedElement>
+</uml:Model>
