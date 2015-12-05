@@ -1,0 +1,11 @@
+Tous les contrôleurs et UI ne sont pas visibles sur le diagramme de classe fourni. Il faut donc rajouter pour tous les éléments proposés ci-dessous un UI et un contrôleur pour chaque :
+		-Planning :
+			-connexion
+			-inscription
+			-achatCredits
+		-Broadcasting :
+			-listeVidéos
+			-vidéo
+		-Sponsoring :
+			-don
+			-paiement
