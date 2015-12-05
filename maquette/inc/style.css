@@ -358,6 +358,15 @@ button {
     margin-bottom:10px;
 }
 
+#contact {
+    padding: 5px;
+}
+
+#contact ul {
+    margin:0;
+    background-color: white;
+}
+
 footer {
     background-color:#3E5E6F;
     text-align: center;
