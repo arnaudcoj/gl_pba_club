@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_iGBkYJmaEeW6E_o-F-G3BQ" name="RootElement">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_iGEAoJmaEeW6E_o-F-G3BQ" name="Interaction1">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_mI7ZIJmaEeW6E_o-F-G3BQ" name="Client" coveredBy="_mI6yEJmaEeW6E_o-F-G3BQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_mI7ZIZmaEeW6E_o-F-G3BQ" name="Système" coveredBy="_mI6yEZmaEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_mI6yEJmaEeW6E_o-F-G3BQ" name="ActionExecSpec" covered="_mI7ZIJmaEeW6E_o-F-G3BQ">
+      <finish xmi:type="uml:ExecutionOccurrenceSpecification" href="consulterSesScores.uml#_K-qAMpmaEeW6E_o-F-G3BQ"/>
+      <start xmi:type="uml:MessageOccurrenceSpecification" href="consulterSesScores.uml#_Pfcq0JmaEeW6E_o-F-G3BQ"/>
+    </fragment>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_mI6yEZmaEeW6E_o-F-G3BQ" name="ActionExecSpec0" covered="_mI7ZIZmaEeW6E_o-F-G3BQ">
+      <finish xmi:type="uml:ExecutionOccurrenceSpecification" href="consulterSesScores.uml#_LhfngZmaEeW6E_o-F-G3BQ"/>
+      <start xmi:type="uml:MessageOccurrenceSpecification" href="consulterSesScores.uml#_Pfcq0ZmaEeW6E_o-F-G3BQ"/>
+    </fragment>
+    <message xmi:type="uml:Message" xmi:id="_mI7ZIpmaEeW6E_o-F-G3BQ" name="1 : va dans la rubrique 'scores'">
+      <receiveEvent xmi:type="uml:MessageOccurrenceSpecification" href="consulterSesScores.uml#_Pfcq0ZmaEeW6E_o-F-G3BQ"/>
+      <sendEvent xmi:type="uml:MessageOccurrenceSpecification" href="consulterSesScores.uml#_Pfcq0JmaEeW6E_o-F-G3BQ"/>
+    </message>
+    <message xmi:type="uml:Message" xmi:id="_mI7ZI5maEeW6E_o-F-G3BQ" name="2 : Construit la liste des scores du client" messageSort="asynchCall">
+      <receiveEvent xmi:type="uml:MessageOccurrenceSpecification" href="consulterSesScores.uml#_Ug9c4JmaEeW6E_o-F-G3BQ"/>
+      <sendEvent xmi:type="uml:MessageOccurrenceSpecification" href="consulterSesScores.uml#_Ug810JmaEeW6E_o-F-G3BQ"/>
+    </message>
+    <message xmi:type="uml:Message" xmi:id="_mI7ZJJmaEeW6E_o-F-G3BQ" name="2.a.1 : Indique au client que sa liste des scores est vide" messageSort="asynchCall">
+      <receiveEvent xmi:type="uml:MessageOccurrenceSpecification" href="consulterSesScores.uml#_XNWxsJmaEeW6E_o-F-G3BQ"/>
+      <sendEvent xmi:type="uml:MessageOccurrenceSpecification" href="consulterSesScores.uml#_XNWKoJmaEeW6E_o-F-G3BQ"/>
+    </message>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JCk1YJmXEeW6E_o-F-G3BQ" name="RootElement">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_JC2iMJmXEeW6E_o-F-G3BQ" name="Supprimer une idée">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_a6t7oJmXEeW6E_o-F-G3BQ" name="Gestionnaire d'idée">
+      <coveredBy xmi:type="uml:ActionExecutionSpecification" href="#_oAamkJmXEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="supprimerIdeeAlternatif.uml#_2bnE0JmXEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_-ZW-gJmXEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_It6XgJmYEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="supprimerIdeeAlternatif.uml#_umw9kJmZEeW6E_o-F-G3BQ"/>
+    </lifeline>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_hFvTcJmXEeW6E_o-F-G3BQ" name="Système">
+      <coveredBy xmi:type="uml:ExecutionOccurrenceSpecification" href="#_onIBQJmXEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:ActionExecutionSpecification" href="#_onHaMJmXEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_7gy18JmXEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_7gzdAJmXEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_-ZXlkJmXEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_BUlZgJmYEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_BUmAkJmYEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_EHp-EJmYEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_EHqlIJmYEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_It7loJmYEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_Pwg3kJmYEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_PwheoJmYEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_SOWzAJmYEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="#_SOXaEJmYEeW6E_o-F-G3BQ"/>
+      <coveredBy xmi:type="uml:MessageOccurrenceSpecification" href="supprimerIdeeAlternatif.uml#_vY92kJmZEeW6E_o-F-G3BQ"/>
+    </lifeline>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_oAamkJmXEeW6E_o-F-G3BQ" name="ActionExecSpec" covered="_a6t7oJmXEeW6E_o-F-G3BQ">
+      <start xmi:type="uml:MessageOccurrenceSpecification" href="supprimerIdeeAlternatif.uml#_2bnE0JmXEeW6E_o-F-G3BQ"/>
+    </fragment>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_onHaMJmXEeW6E_o-F-G3BQ" name="ActionExecSpec0" covered="_hFvTcJmXEeW6E_o-F-G3BQ" finish="_onIBQJmXEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7gy18JmXEeW6E_o-F-G3BQ" name="MessageSend0" covered="_hFvTcJmXEeW6E_o-F-G3BQ" message="_7gyO4JmXEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7gzdAJmXEeW6E_o-F-G3BQ" name="MessageRecv0" covered="_hFvTcJmXEeW6E_o-F-G3BQ" message="_7gyO4JmXEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-ZW-gJmXEeW6E_o-F-G3BQ" name="MessageSend1" covered="_a6t7oJmXEeW6E_o-F-G3BQ" message="_-ZVwYJmXEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-ZXlkJmXEeW6E_o-F-G3BQ" name="MessageRecv1" covered="_hFvTcJmXEeW6E_o-F-G3BQ" message="_-ZVwYJmXEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BUlZgJmYEeW6E_o-F-G3BQ" name="MessageSend2" covered="_hFvTcJmXEeW6E_o-F-G3BQ" message="_BUkycJmYEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BUmAkJmYEeW6E_o-F-G3BQ" name="MessageRecv2" covered="_hFvTcJmXEeW6E_o-F-G3BQ" message="_BUkycJmYEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EHp-EJmYEeW6E_o-F-G3BQ" name="MessageSend3" covered="_hFvTcJmXEeW6E_o-F-G3BQ" message="_EHov8JmYEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EHqlIJmYEeW6E_o-F-G3BQ" name="MessageRecv3" covered="_hFvTcJmXEeW6E_o-F-G3BQ" message="_EHov8JmYEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_It6XgJmYEeW6E_o-F-G3BQ" name="MessageSend4" covered="_a6t7oJmXEeW6E_o-F-G3BQ" message="_It5wcJmYEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_It7loJmYEeW6E_o-F-G3BQ" name="MessageRecv4" covered="_hFvTcJmXEeW6E_o-F-G3BQ" message="_It5wcJmYEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Pwg3kJmYEeW6E_o-F-G3BQ" name="MessageSend5" covered="_hFvTcJmXEeW6E_o-F-G3BQ" message="_PwfpcJmYEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PwheoJmYEeW6E_o-F-G3BQ" name="MessageRecv5" covered="_hFvTcJmXEeW6E_o-F-G3BQ" message="_PwfpcJmYEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SOWzAJmYEeW6E_o-F-G3BQ" name="MessageSend6" covered="_hFvTcJmXEeW6E_o-F-G3BQ" message="_SOWL8JmYEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SOXaEJmYEeW6E_o-F-G3BQ" name="MessageRecv6" covered="_hFvTcJmXEeW6E_o-F-G3BQ" message="_SOWL8JmYEeW6E_o-F-G3BQ"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_onIBQJmXEeW6E_o-F-G3BQ" name="ActionExecSpec0Finish" covered="_hFvTcJmXEeW6E_o-F-G3BQ" execution="_onHaMJmXEeW6E_o-F-G3BQ"/>
+    <message xmi:type="uml:Message" xmi:id="_2bmdwJmXEeW6E_o-F-G3BQ" name="1 : Clique sur 'supprimer une idée'">
+      <sendEvent xmi:type="uml:MessageOccurrenceSpecification" href="supprimerIdeeAlternatif.uml#_2bnE0JmXEeW6E_o-F-G3BQ"/>
+    </message>
+    <message xmi:type="uml:Message" xmi:id="_7gyO4JmXEeW6E_o-F-G3BQ" name="2 : Affiche une demande de confirmation" messageSort="asynchCall" receiveEvent="_7gzdAJmXEeW6E_o-F-G3BQ" sendEvent="_7gy18JmXEeW6E_o-F-G3BQ"/>
+    <message xmi:type="uml:Message" xmi:id="_-ZVwYJmXEeW6E_o-F-G3BQ" name="3 : Clique sur le bouton 'confirmer'" messageSort="asynchCall" receiveEvent="_-ZXlkJmXEeW6E_o-F-G3BQ"/>
+    <message xmi:type="uml:Message" xmi:id="_BUkycJmYEeW6E_o-F-G3BQ" name="4 : Déplace l'idée vers les idées refusées" messageSort="asynchCall" receiveEvent="_BUmAkJmYEeW6E_o-F-G3BQ" sendEvent="_BUlZgJmYEeW6E_o-F-G3BQ"/>
+    <message xmi:type="uml:Message" xmi:id="_EHov8JmYEeW6E_o-F-G3BQ" name="5 : Indique à l'utilisateur que l'idée est refusée" messageSort="asynchCall" receiveEvent="_EHqlIJmYEeW6E_o-F-G3BQ" sendEvent="_EHp-EJmYEeW6E_o-F-G3BQ"/>
+    <message xmi:type="uml:Message" xmi:id="_It5wcJmYEeW6E_o-F-G3BQ" name="6 : Clique sur le bouton 'ok'" messageSort="asynchCall" receiveEvent="_It7loJmYEeW6E_o-F-G3BQ" sendEvent="_It6XgJmYEeW6E_o-F-G3BQ"/>
+    <message xmi:type="uml:Message" xmi:id="_PwfpcJmYEeW6E_o-F-G3BQ" name="7 : Construit la liste des idées refusées" messageSort="asynchCall" receiveEvent="_PwheoJmYEeW6E_o-F-G3BQ" sendEvent="_Pwg3kJmYEeW6E_o-F-G3BQ"/>
+    <message xmi:type="uml:Message" xmi:id="_SOWL8JmYEeW6E_o-F-G3BQ" name="8 : Affiche la liste des idées refusées" messageSort="asynchCall" receiveEvent="_SOXaEJmYEeW6E_o-F-G3BQ" sendEvent="_SOWzAJmYEeW6E_o-F-G3BQ"/>
+  </packagedElement>
+</uml:Model>
